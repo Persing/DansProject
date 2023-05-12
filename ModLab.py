@@ -2,11 +2,14 @@ import os
 import sys
 import json
 
+DEFAULT_MOD_FOLDER = "mods"
+DEFAULT_OUTPUT_FOLDER = "output"
+
 # Check if the user specified a file path to the mod folders
 if len(sys.argv) > 1:
     mod_folder = sys.argv[1]
 else:
-    mod_folder = "mods"
+    mod_folder = DEFAULT_MOD_FOLDER
 
 print(f"Using mod folder: {mod_folder}")
 
@@ -36,9 +39,19 @@ def flatten(lst):
             result.append(i)
     return result
 
+
 # combines two dictionaries into a single dictionary
 def join_dicts(dict1, dict2):
-    return {**dict1, **dict2}
+    if isinstance(dict1, dict) and isinstance(dict2, dict):
+        combined_dict = {**dict1, **dict2}
+        if 'quirks' in dict1 and 'quirks' in dict2:
+            combined_dict['quirks'] = dict1['quirks'] + dict2['quirks']
+        return combined_dict
+    elif isinstance(dict1, list) and isinstance(dict2, list):
+        return dict1 + dict2
+    else:
+        return [dict1, dict2]
+    # return {**dict1, **dict2}
 
 
 # combines two indexes of mechs.json files into a single index.
@@ -49,36 +62,26 @@ def combine_mechs(mechs1, mechs2):
     for key in mechs1.keys():
         if key in mechs2.keys():
             combined_mechs[key] = join_dicts(mechs1[key], mechs2[key])
-            if 'quirks' in combined_mechs[key]:
+            if 'quirks' in combined_mechs[key] and isinstance(combined_mechs[key]['quirks'], list):
                 combined_mechs[key]['quirks'] = flatten(combined_mechs[key]['quirks'])
         else:
-            combined_mechs[key] = mechs1[key]
+            if isinstance(mechs1[key], dict) and 'quirks' in mechs1[key] and isinstance(mechs1[key]['quirks'], list):
+                combined_mechs[key] = flatten(mechs1[key]['quirks'])
 
     for key in mechs2.keys():
         if key not in combined_mechs.keys():
-            combined_mechs[key] = mechs2[key]
+            if isinstance(mechs2[key], dict) and 'quirks' in mechs2[key] and isinstance(mechs2[key]['quirks'], list):
+                combined_mechs[key] = flatten(mechs2[key]['quirks'])
 
     return combined_mechs
-
-# def combine_mechs(mechs1, mechs2):
-#     combined_mechs = {}
-#
-#     for key in mechs1.keys():
-#         if key in mechs2.keys():
-#             combined_mechs[key] = join_dicts(mechs1[key], mechs2[key])
-#         else:
-#             combined_mechs[key] = mechs1[key]
-#
-#     for key in mechs2.keys():
-#         if key not in combined_mechs.keys():
-#             combined_mechs[key] = mechs2[key]
-#
-#     return combined_mechs
 
 
 # read the first mech file into the dictionary
 with open(mech_files[0]) as f:
     mechs = json.load(f)
+
+# remove the first mech file from the list
+mech_files.pop(0)
 
 # read and merge the remaining mech files into the dictionary
 for mech_file in mech_files:
@@ -87,3 +90,13 @@ for mech_file in mech_files:
         mechs = combine_mechs(mechs, mech_data)
 
 print(f"Loaded {len(mechs)} mechs.")
+
+# Check if the output folder exists
+if not os.path.exists(DEFAULT_OUTPUT_FOLDER):
+    os.mkdir(DEFAULT_OUTPUT_FOLDER)
+
+# write the combined mechs to a new file
+with open(f"{DEFAULT_OUTPUT_FOLDER}/mechs.json", "w") as f:
+    json.dump(mechs, f, indent=2)
+
+print("Done.")
