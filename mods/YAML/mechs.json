@@ -1,0 +1,1503 @@
+{
+	"SavageWolf_MDL": {
+		"quirks": [
+			"STABLE",
+			"NON-STANDARD-PARTS",
+			"PROTECTED-ACTUATOR",
+			"clan-mech-savagewolf"
+		]
+	},
+	"TBR-PRIME": {
+		"quirks": [
+			"WEAK-HEAD-1",
+			"IMPROVED-TARGETING",
+			"clan-mech-savagewolf"
+		]
+	},
+	"Annihilator_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN"
+		]
+	},
+	"ANH-MB": {
+		"quirks": [
+			"ANH-MB",
+			"ANH-HERO"
+		]
+	},
+	"Archer_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"CMD-MECH",
+			"STABLE",
+			"UBIQUITOUS",
+			"ARC-LRM"
+		]
+	},
+	"ARC-2Rb": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"ARC-2P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"ARC-T": {
+		"quirks": [
+			"ARC-T",
+			"ARC-HERO"
+		]
+	},
+	"ARC-AGC": {
+		"quirks": [
+			"ARC-AGC",
+			"ARC-HERO"
+		]
+	},
+	"Assassin_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"CRAMPED-COCKPIT",
+			"NON-STANDARD-PARTS",
+			"POOR-LIFE-SUPPORT"
+		]
+	},
+	"ASN-25": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"ASN-DD": {
+		"quirks": [
+			"ASN-DD",
+			"ASN-HERO"
+		]
+	},
+	"ASN-W": {
+		"quirks": [
+			"ASN-W",
+			"ASN-HERO"
+		]
+	},
+	"Atlas_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"CMD-MECH",
+			"DISTRACTING",
+			"IMPROVED-COMS"
+		]
+	},
+	"Atlas-II_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"CMD-MECH",
+			"DISTRACTING"
+		]
+	},
+	"AtlasNorn_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"CMD-MECH",
+			"DISTRACTING",
+			"IMPROVED-COMS"
+		]
+	},
+	"AtlasFDR_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"CMD-MECH",
+			"DISTRACTING",
+			"IMPROVED-COMS"
+		]
+	},
+	"AS7-P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"AS7-S (L)": {
+		"quirks": [
+			"AS7-HERO"
+		]
+	},
+	"AS7-D (F)": {
+		"quirks": [
+			"AS7-HERO"
+		]
+	},
+	"AS7-BH": {
+		"quirks": [
+			"AS7-BH",
+			"AS7-HERO"
+		]
+	},
+	"AS7-D-H": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"AS7-D-Y": {
+		"quirks": [
+			"AS7-D-Y",
+			"SLDF",
+			"AS7-HERO"
+		]
+	},
+	"AS7-KR": {
+		"quirks": [
+			"AS7-KR",
+			"AS7-HERO"
+		]
+	},
+	"AS7-K3": {
+		"quirks": [
+			"AS7-K3"
+		]
+	},
+	"Awesome_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"AWS-PPC"
+		]
+	},
+	"AWS-8V-MDA-AIV": {
+		"quirks": [
+			"AIV-PLATFORM"
+		]
+	},
+	"AWS-PB": {
+		"quirks": [
+			"AWS-PB",
+			"AWS-HERO"
+		]
+	},
+	"Banshee_MDL": {
+		"quirks": [
+			"RUGGED1",
+			"BNC-MELEE"
+			]
+	},
+	"BNC-1E": {
+		"quirks": [
+			"DISTRACTING",
+			"EASYTOMAINTAIN"
+		]
+	},
+	"BNC-2P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"BNC-LM": {
+		"quirks": [
+			"BNC-LM",
+			"BNC-HERO"
+		]
+	},
+	"BNC-SR": {
+		"quirks": [
+			"BNC-SR",
+			"BNC-HERO"
+		]
+	},
+	"Battlemaster_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"WEAK-HEAD-1"
+		]
+	},
+	"BLR-1M": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"BLR-1GHE": {
+		"quirks": [
+			"SLDF",
+			"BLR-1GHE",
+			"BLR-HERO"
+		]
+	},
+	"BLR-1G (P)": {
+		"quirks": [
+			"CMD-MECH",
+			"BLR-HERO"
+		]
+	},
+	"BlackKnight_MDL": {
+		"quirks": [
+			"CMD-MECH"
+		]
+	},
+	"BL-6B-KNT": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"BL-7-KNT-P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"BL-P-KNT": {
+		"quirks": [
+			"BL-P-KNT",
+			"BL-HERO"
+		]
+	},
+	"BL-P-KNT2": {
+		"quirks": [
+			"MELEE",
+			"BL-P-KNT2",
+			"BL-HERO"
+		]
+	},
+	"BL-G-KNT": {
+		"quirks": [
+			"BL-G-KNT",
+			"BL-HERO"
+		]
+	},
+	"BL-6-KNT (R)": {
+		"quirks": [
+			"CMD-MECH",
+			"BL-HERO"
+		]
+	},
+	"Blackjack_MDL": {
+		"quirks": [
+			"IMPROVED-TARGETING"
+		]
+	},
+	"BJ-A": {
+		"quirks": [
+			"BJ-A",
+			"BJ-HERO"
+		]
+	},
+	"Cataphract_MDL":{
+		"quirks": [
+			"PROTECTED-ACTUATOR"
+		]
+	},
+	"CTF-0X": {
+		"quirks": [
+			"CMD-MECH"
+		]
+	},
+	"CTF-0XP": {
+		"quirks": [
+			"CMD-MECH"
+		]
+	},
+	"CTF-2P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"CTF-IM": {
+		"quirks": [
+			"CTF-IM",
+			"CTF-HERO"
+		]
+	},
+	"Catapult_MDL": {
+		"quirks": [
+			"NIMBLEJUMPER",
+			"MISSILEBOAT",
+			"WEAK-HEAD-1"
+		]
+	},
+	"CPLT-C1B": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"CPLT-J": {
+		"quirks": [
+			"CPLT-J",
+			"CPLT-HERO"
+		]
+	},
+	"CPLT-BB": {
+		"quirks": [
+			"CPLT-BB",
+			"CPLT-HERO"
+		]
+	},
+	"CPLT-C1 (F)": {
+		"quirks": [
+			"NIMBLEJUMPER",
+			"MISSILEBOAT",
+			"CPLT-HERO"
+		]
+	},
+	"CPLT-K2": {
+		"quirks": [
+			"PPC-Platform"
+		],
+		"comment": "added PPC-Platform based on variant loadout"
+	},
+	"CPLT-K2K": {
+		"quirks": [
+			"PPC-Platform"
+		],
+		"comment": "added PPC-Platform based on variant loadout"
+	},
+	"CPLT-K3": {
+		"quirks": [
+			"PPC-Platform"
+		],
+		"comment": "added PPC-Platform based on variant loadout"
+	},
+	"Centurion_MDL": {
+		"quirks": [
+			"IMPROVED-TARGETING",
+			"NON-STANDARD-PARTS",
+			"CN9-SHIELD"
+		]
+	},
+	"CN9-P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"CN9-YLW": {
+		"quirks": [
+			"CN9-YLW",
+			"CN9-HERO"
+		]
+	},
+	"CN9-YLW2": {
+		"quirks": [
+			"MELEE",
+			"CN9-YLW",
+			"CN9-HERO"
+		]
+	},
+	"CN9-CALM": {
+		"quirks": [
+			"MELEE",
+			"CN9-CALM",
+			"CN9-HERO"
+		]
+	},
+	"Champion_MDL": {
+		"quirks": [
+			"EASY-PILOT"
+		]
+	},
+	"CHP-1NB": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"CHP-3N": {
+		"quirks": [
+			"CLANBUSTER"
+		]
+	},
+	"CHP-INV": {
+		"quirks": [
+			"CHP-INV",
+			"CHP-HERO"
+		]
+	},
+	"Charger_MDL": {
+		"quirks": [
+			"UAV-CARRIER",
+			"BARREL-FIST (L)",
+			"EASYTOMAINTAIN"
+		]
+	},
+	"CGR-1P5": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"CGR-N7": {
+		"quirks": [
+			"CGR-N7",
+			"CGR-HERO"
+		]
+	},
+	"CGR-SLDF": {
+		"quirks": [
+			"SLDF",
+			"CGR-HERO"
+		]
+	},
+	"Cicada_MDL": {
+		"quirks": [
+			"EASY-PILOT",
+			"ENERGYPROF"
+		]
+	},
+	"CDA-X5": {
+		"quirks": [
+			"CDA-X5",
+			"CDA-HERO"
+		]
+	},
+	"Commando_MDL": {
+		"quirks": [
+			"NARROW-PROFILE",
+			"EXP-ACTUATOR"
+		]
+	},
+	"COM-TDK": {
+		"quirks": [
+			"COM-TDK",
+			"COM-HERO"
+		]
+	},
+	"Corsair_MDL": {
+		"quirks": [
+			"UAV-CARRIER",
+			"SEARCHLIGHT",
+			"EASYTOMAINTAIN",
+			"RUGGED1"
+		]
+	},
+	"COR-RA": {
+		"quirks": [
+			"COR-RA",
+			"COR-HERO"
+		]
+	},
+	"COR-PVT": {
+		"quirks": [
+			"COR-PVT",
+			"COR-HERO"
+		]
+	},
+	"COR-ROAM": {
+		"scale": "X=1.08 Y=1.08 Z=1.08",
+		"quirks": [
+			"ANTIAIR-TARGETING",
+			"COR-ROAM",
+			"COR-HERO"
+		]
+	},
+	"Crab_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN"
+		]
+	},
+	"CRB-27B": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"CRB-27SL": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"CRB-FL": {
+		"quirks": [
+			"CRB-FL",
+			"CRB-HERO"
+		]
+	},
+	"Crusader_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"RUGGED1",
+			"UBIQUITOUS",
+			"STABILIZED-WEAPON"
+		]
+	},
+	"CRD-2R": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"CRD-CR": {
+		"quirks": [
+			"CRD-HERO",
+			"CRD-CR"
+		]
+	},
+	"CRD-CR2": {
+		"quirks": [
+			"CRD-HERO",
+			"CRD-CR2"
+		]
+	},
+	"Cyclops_MDL": {
+		"quirks": [
+			"BATTLECOMP",
+			"COWL",
+			"DIFFICULT-EJECT",
+			"WEAK-HEAD-2"
+		]
+	},
+	"CP-10-P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"CP-S": {
+		"quirks": [
+			"CP-S",
+			"CP-HERO"
+		]
+	},
+	"CP-TTB": {
+		"quirks": [
+			"MELEE",
+			"CP-TTB",
+			"CP-HERO"
+		]
+	},
+	"Dervish_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"HYPER-EXT-ACTUATOR"
+		]
+	},
+	"DV-FR": {
+		"quirks": [
+			"DV-FR",
+			"DV-HERO"
+		]
+	},
+	"Dragon_MDL": {
+		"quirks": [
+			"NARROW-PROFILE",
+			"STABLE"
+		]
+	},
+	"DRG-FANG": {
+		"quirks": [
+			"DRG-FANG",
+			"DRG-HERO"
+		]
+	},
+	"DRG-FLAME": {
+		"quirks": [
+			"DRG-FLAME",
+			"DRG-HERO"
+		]
+	},
+	"DRG-SDW": {
+		"quirks": [
+			"DRG-SDW",
+			"DRG-HERO"
+		]
+	},
+	"GDRG-1G": {
+		"quirks": [
+			"NARROW-PROFILE",
+			"STABLE",
+			"DRG-HERO"
+		]
+	},
+	"Enforcer_MDL": {
+		"quirks": [
+			"BARREL-FISTS",
+			"FAST-RELOAD-RARM",
+			"IMP-COOLING-B",
+			"JAM-RARM"
+		]
+	},
+	"ENF-5P": {
+		"quirks": [
+			"JAM-LARM"
+		]
+	},
+	"ENF-GH": {
+		"quirks": [
+			"ENF-GH",
+			"ENF-HERO"
+		]
+	},
+	"Firestarter_MDL": {
+		"quirks": [
+			"UBIQUITOUS",
+			"EXPOSED-LINKAGE",
+			"FIRESTARTER"
+		]
+	},
+	"FS9-E": {
+		"quirks": [
+			"FS9-E",
+			"FS9-HERO"
+		]
+	},
+	"FS9-FS": {
+		"quirks": [
+			"FS9-FS",
+			"FS9-HERO"
+		]
+	},
+	"Flea_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"HARD-PILOT",
+			"IMP-LIFE-SUPPORT"
+		]
+	},
+	"FLE-R5K": {
+		"quirks": [
+			"FLE-R5K",
+			"FLE-HERO"
+		]
+	},
+	"Grasshopper_MDL": {
+		"quirks": [
+			"RUGGED1"
+		]
+	},
+	"GHR-5M": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"GHR-MJ": {
+		"quirks": [
+			"GHR-MJ",
+			"GHR-HERO"
+		]
+	},
+	"GHR-5J (R)": {
+		"quirks": [
+			"RUGGED1",
+			"GHR-HERO"
+		]
+	},
+	"Griffin_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"RUGGED1",
+			"UBIQUITOUS"
+		]
+	},
+	"GRF-1P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"GRF-2N": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"GRF-1E": {
+		"quirks": [
+			"GRF-1E",
+			"GRF-HERO"
+		]
+	},
+	"GRF-AR": {
+		"quirks": [
+			"GRF-AR",
+			"GRF-HERO"
+		]
+	},
+	"GRF-1N (P)": {
+		"quirks": [
+			"BATTLEFISTS",
+			"RUGGED1",
+			"UBIQUITOUS",
+			"GRF-HERO"
+		]
+	},
+	"GRF-1S": {
+		"quirks": [
+			"PROTECTED-ACTUATOR"
+		]
+	},
+	"Hatchetman_MDL": {
+		"quirks": [
+			"ANTIAIR-TARGETING",
+			"MELEE"
+		]
+	},
+	"HCT-MA": {
+		"quirks": [
+			"HCT-MA",
+			"HCT-HERO"
+		]
+	},
+	"Hatamotochi_MDL": {
+		"quirks": [
+			"BARREL-FIST (L)",
+			"EASYTOMAINTAIN",
+			"MODULAR-WEAPONS"
+		]
+	},
+	"HTM-26P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"HTM-SG": {
+		"quirks": [
+			"HTM-SG",
+			"HTM-HERO"
+		]
+	},
+	"HTM-ON": {
+		"quirks": [
+			"MELEE",
+			"HTM-ON",
+			"HTM-HERO"
+		]
+	},
+	"HTM-26T (S)": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"MODULAR-WEAPONS",
+			"BARREL-FIST (L)",
+			"HTM-HERO"
+		]
+	},
+	"HTM-27W": {
+		"quirks": [
+			"MULTITRAC"
+		]
+	},
+	"Highlander_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"COWL",
+			"DIFFICULT-EJECT",
+			"REINFORCED-LEGS"
+		]
+	},
+	"HGN-732B": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"HGN-733PP": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"HGN-SLDF": {
+		"quirks": [
+			"COWL",
+			"CMD-MECH",
+			"REINFORCED-LEGS",
+			"DIFFICULT-EJECT",
+			"SLDF",
+			"HGN-HERO"
+		]
+	},
+	"HGN-RS": {
+		"quirks": [
+			"MELEE",
+			"HGN-RS",
+			"HGN-HERO"
+		]
+	},
+	"HGN-HM": {
+		"quirks": [
+			"HGN-HM",
+			"HGN-HERO"
+		]
+	},
+	"HGN-LV": {
+		"quirks": [
+			"HGN-LV",
+			"HGN-HERO"
+		]
+	},
+	"Hunchback_MDL": {
+		"quirks": [
+			"BATTLEFISTS"
+		]
+	},
+	"Hunchback-II_MDL": {
+		"quirks": [
+			"BATTLEFISTS"
+		]
+	},
+	"HunchbackFDR_MDL": {
+		"quirks": [
+			"BATTLEFISTS"
+		]
+	},
+	"HBK-4HP": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"HBK-GI": {
+		"quirks": [
+			"HBK-GI",
+			"HBK-HERO"
+		]
+	},
+	"HBK-4G (F)": {
+		"quirks": [
+			"HBK-HERO"
+		]
+	},
+	"Jagermech_MDL": {
+		"quirks": [
+			"ANTIAIR-TARGETING"
+		]
+	},
+	"JM6-FB": {
+		"quirks": [
+			"JM6-FB",
+			"JM6-HERO"
+		]
+	},
+	"Javelin_MDL": {
+		"quirks": [
+			"UNBALANCED"
+		]
+	},
+	"JVN-HT": {
+		"quirks": [
+			"JVN-HT",
+			"JVN-HERO"
+		]
+	},
+	"JVN-WU": {
+		"quirks": [
+			"JVN-WU",
+			"JVN-HERO"
+		]
+	},
+	"Jenner_MDL": {
+		"quirks": [
+			"UBIQUITOUS"
+		]
+	},
+	"JR7-O": {
+		"quirks": [
+			"JR7-O",
+			"JR7-HERO"
+		]
+	},
+	"JR7-D (F)": {
+		"quirks": [
+			"UBIQUITOUS",
+			"JR7-HERO"
+		]
+	},
+	"Kingcrab_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"REINFORCEDCOCKPIT"
+		]
+	},
+	"KGC-000B": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"KGC-001": {
+		"quirks": [
+			"CLANBUSTER"
+		]
+	},
+	"KGC-KJ": {
+		"quirks": [
+			"KGC-KJ",
+			"KGC-HERO"
+		]
+	},
+	"KGC-J": {
+		"quirks": [
+			"KGC-J",
+			"KGC-HERO"
+		]
+	},
+	"KGC-CAR": {
+		"quirks": [
+			"KGC-CAR",
+			"KGC-HERO"
+		]
+	},
+	"Kintaro_MDL": {
+		"quirks": [
+			"RUGGED1"
+		]
+	},
+	"KTO-19b": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"KTO-18P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"KTO-GB": {
+		"quirks": [
+			"KTO-GB",
+			"KTO-HERO"
+		]
+	},
+	"Locust_MDL": {
+		"quirks": [
+			"COMPACT",
+			"NARROW-PROFILE",
+			"CRAMPED-COCKPIT",
+			"LOCUST",
+			"WEAK-LEGS"
+		]
+	},
+	"LCT-1Vb": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"LCT-PB": {
+		"quirks": [
+			"LCT-PB",
+			"LCT-HERO"
+		]
+	},
+	"LCT-1V (P)": {
+		"quirks": [
+			"NARROW-PROFILE",
+			"COMPACT",
+			"CRAMPED-COCKPIT",
+			"LOCUST",
+			"LCT-HERO"
+		]
+	},
+	"Marauder_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"MOUNT-RT",
+			"HYPER-EXT-ACTUATOR",
+			"NARROW-PROFILE",
+			"EXPOSED-LINKAGERT"
+		]
+	},
+	"MAD-2R": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"MAD-BH2": {
+		"quirks": [
+			"MAD-BH2",
+			"MAD-HERO"
+		]
+	},
+	"MAD-BH": {
+		"quirks": [
+			"MAD-BH",
+			"MAD-HERO"
+		]
+	},
+	"MAD-BARA": {
+		"quirks": [
+			"SEARCHLIGHT",
+			"MAD-BARA",
+			"MAD-HERO"
+		]
+	},
+	"MarauderII_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"HYPER-EXT-ACTUATOR",
+			"NARROW-PROFILE",
+			"EXP-ACTUATOR"
+		]
+	},
+	"MAD-AL": {
+		"quirks": [
+			"MAD-AL",
+			"MAD2-HERO"
+		]
+	},
+	"MAD-TF": {
+		"scale": "X=1.1 Y=1.1 Z=1.1",
+		"quirks": [
+			"MISSILEBOAT",
+			"SEARCHLIGHT",
+			"PREDICTIVE-TARGETING",
+			"MAD-TF",
+			"MAD2-HERO"
+		]
+	},
+	"MAD-BARA2": {
+		"scale": "X=1.1 Y=1.1 Z=1.1",
+		"quirks": [
+			"MISSILEBOAT",
+			"SEARCHLIGHT",
+			"PREDICTIVE-TARGETING",
+			"MAD-BARA2",
+			"MAD-HERO"
+		]
+	},
+	"MenShen_MDL": {
+		"scale": "X=1.3 Y=1.3 Z=1.3",
+		"quirks": [
+			"IMPROVED-COMS",
+			"RVN-SENSOR",
+			"EXP-ACTUATOR"
+		]
+	},
+	"Mauler_MDL": {
+		"quirks": [
+			"STABILIZED-WEAPON"
+		]
+	},
+	"MAL-KO": {
+		"quirks": [
+			"MAL-KO",
+			"MAL-HERO"
+		]
+	},
+	"MAL-1R (R)": {
+		"quirks": [
+			"STABILIZED-WEAPON",
+			"MAL-HERO"
+		]
+	},
+	"Nightstar_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"IMPROVED-TARGETING",
+			"NSR-DIFFICULTTOMAINTAIN",
+			"REINFORCEDCOCKPIT"
+		]
+	},
+	"NSR-9J": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"NSR-WP": {
+		"quirks": [
+			"NSR-WP",
+			"NSR-HERO"
+		]
+	},
+	"NSR-WD": {
+		"quirks": [
+			"NSR-WD",
+			"NSR-HERO"
+		]
+	},
+	"Orion_MDL": {
+		"quirks": [
+			"ANTIAIR-TARGETING",
+			"EASYTOMAINTAIN",
+			"RUGGED1"
+
+		]
+	},
+	"ON1-P": {
+		"quirks": [
+			"ON1-P",
+			"ON1-HERO"
+		]
+	},
+	"ON1-YAJ": {
+		"quirks": [
+			"ON1-YAJ",
+			"ON1-HERO"
+		]
+	},
+	"Panther_MDL": {
+		"quirks": [
+			"IMPROVED-TARGETING",
+			"NIMBLEJUMPER"
+		]
+	},
+	"PNT-KK": {
+		"quirks": [
+			"PNT-KK",
+			"PNT-HERO"
+		]
+	},
+	"Phoenixhawk_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"IMPROVED-COMS",
+			"UBIQUITOUS"
+		]
+	},
+	"PXH-1P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"PXH-1B": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"PXH-KK": {
+		"quirks": [
+			"PXH-KK",
+			"PXH-HERO"
+		]
+	},
+	"PXH-R": {
+		"quirks": [
+			"PXH-R",
+			"PXH-HERO"
+		]
+	},
+	"PXH-KB": {
+		"quirks": [
+			"PXH-KB",
+			"PXH-HERO"
+		]
+	},
+	"Quickdraw_MDL": {
+		"quirks": [
+			"HYPER-EXT-ACTUATOR",
+			"EXP-ACTUATOR"
+		]
+	},
+	"QKD-5P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"QKD-IV4": {
+		"quirks": [
+			"QKD-IV4",
+			"QKD-HERO"
+		]
+	},
+	"QKD-SC": {
+		"quirks": [
+			"MELEE",
+			"QKD-SC",
+			"QKD-HERO"
+		]
+	},
+	"Raven_MDL": {
+		"quirks": [
+			"UAV-CARRIER",
+			"RVN-SENSOR"
+		]
+	},
+	"RVN-H": {
+		"quirks": [
+			"RVN-H",
+			"RVN-HERO"
+		]
+	},
+	"RVN-M": {
+		"quirks": [
+			"RVN-M",
+			"RVN-HERO"
+		]
+	},
+	"Rifleman_MDL": {
+		"quirks": [
+			"ANTIAIR-TARGETING",
+			"IMPROVED-COMS",
+			"SEARCHLIGHT",
+			"UBIQUITOUS"
+		]
+	},
+	"RFL-DB": {
+		"quirks": [
+			"RFL-DB",
+			"RFL-HERO"
+		]
+	},
+	"RFL-DNA": {
+		"quirks": [
+			"RFL-DNA",
+			"RFL-HERO"
+		]
+	},
+	"RFL-LK": {
+		"quirks": [
+			"RFL-LK",
+			"RFL-HERO"
+		]
+	},
+	"Shadowhawk_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"IMP-LIFE-SUPPORT",
+			"RUGGED1",
+			"UBIQUITOUS"
+		]
+	},
+	"ShadowhawkPHX_MDL": {
+		"quirks": [
+			"BATTLEFISTS",
+			"IMP-LIFE-SUPPORT",
+			"RUGGED1",
+			"UBIQUITOUS"
+		]
+	},
+	"SHD-1P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"SHD-GD": {
+		"quirks": [
+			"SHD-GD",
+			"SHD-HERO"
+		]
+	},
+	"SHD-2H (P)": {
+		"quirks": [
+			"SHD-2HP",
+			"SHD-HERO"
+		]
+	},
+	"Spider_MDL": {
+		"quirks": [
+			"NO-EJECT",
+			"EASYTOMAINTAIN",
+			"NIMBLEJUMPER"
+		]
+	},
+	"SDR-A": {
+		"quirks": [
+			"SDR-A",
+			"SDR-HERO"
+		]
+	},
+	"Stalker_MDL": {
+		"quirks": [
+			"CBTCPU",
+			"UBIQUITOUS",
+			"MISSILEBOAT"
+		]
+	},
+	"STK-3FB": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"STK-M": {
+		"quirks": [
+			"STK-M",
+			"STK-HERO"
+		]
+	},
+	"Thunderbolt_MDL": {
+		"quirks": [
+			"MULTITRAC",
+			"RUGGED2",
+			"UBIQUITOUS"
+		]
+	},
+	"TDR-5S-T": {
+		"quirks": [
+			"TDR-5S-T",
+			"TDR-HERO"
+		]
+	},
+	"TDR-5S (P)": {
+		"quirks": [
+			"RUGGED2",
+			"MULTITRAC",
+			"UBIQUITOUS",
+			"TDR-HERO"
+		]
+	},
+	"Trebuchet_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"FAST-RELOAD-TORSO"
+		]
+	},
+	"TBT-5P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"TBT-LG": {
+		"quirks": [
+			"TBT-LG",
+			"TBT-HERO"
+		]
+	},
+	"Urbanmech_MDL": {
+		"quirks": [
+			"FULL-TWIST",
+			"NARROW-PROFILE",
+			"UM-ASSAULT"
+		]
+	},
+	"UM-AIV": {
+		"quirks": [
+			"AIV-PLATFORM"
+		]
+	},
+	"UM-K9": {
+		"quirks": [
+			"UM-K9"
+		]
+	},
+	"UM-SC": {
+		"quirks": [
+			"UM-SC"
+		]
+	},
+	"UM-R60 (S)": {
+		"quirks": [
+			"FULL-TWIST",
+			"NARROW-PROFILE",
+			"UM-ASSAULT",
+			"UM-SC"
+		]
+	},
+	"UM-K9 (S)": {
+		"quirks": [
+			"FULL-TWIST",
+			"NARROW-PROFILE",
+			"UM-ASSAULT",
+			"UM-K9"
+		]
+	},
+	"Victor_MDL": {
+		"quirks": [
+			"RUGGED1"
+		]
+	},
+	"VTR-9P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"VTR-DS": {
+		"quirks": [
+			"VTR-DS",
+			"VTR-HERO"
+		]
+	},
+	"VTR-BSK": {
+		"quirks": [
+			"VTR-BSK",
+			"VTR-HERO"
+		]
+	},
+	"Vindicator_MDL": {
+		"quirks": [
+			"RUGGED1",
+			"DIFFICULT-EJECT"
+		]
+	},
+	"VND-1P": {
+		"quirks": [
+			"MELEE"
+		]
+	},
+	"VND-1SIB": {
+		"quirks": [
+			"VND-1SIB",
+			"VND-HERO"
+		]
+	},
+	"Vulcan_MDL": {
+		"quirks": [
+			"NARROW-PROFILE"
+		]
+	},
+	"VL-BL": {
+		"quirks": [
+			"VL-BL",
+			"VL-HERO"
+		]
+	},
+	"Warhammer_MDL": {
+		"quirks": [
+			"SEARCHLIGHT",
+			"RUGGED2",
+			"STABLE",
+			"UBIQUITOUS"
+		]
+	},
+	"WHM-6RB": {
+		"quirks": [
+			"SLDF"
+		]
+	},
+	"WHM-9D": {
+		"quirks": [
+			"WHM-9D"
+		]
+	},
+	"WHM-BW": {
+		"quirks": [
+			"WHM-BW",
+			"WHM-HERO"
+		]
+	},
+	"Wolfhound_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN"
+		]
+	},
+	"WLF-GR": {
+		"quirks": [
+			"WLF-GR",
+			"WLF-HERO"
+		]
+	},
+	"WLF-1 (R)": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"WLF-HERO"
+		]
+	},
+	"Wolverine_MDL": {
+		"quirks": [
+			"CMD-MECH",
+			"IMPROVED-COMS",
+			"PROTECTED-ACTUATOR",
+			"CRAMPED-COCKPIT",
+			"UBIQUITOUS"
+		]
+	},
+	"WVR-6R (P)": {
+		"quirks": [
+			"CMD-MECH",
+			"IMPROVED-COMS",
+			"PROTECTED-ACTUATOR",
+			"CRAMPED-COCKPIT",
+			"UBIQUITOUS",
+			"WVR-HERO"
+		]
+	},
+	"WVR-7H": {
+		"quirks": [
+			"WVR-7H",
+			"SLDF",
+			"WVR-HERO"
+		]
+	},
+	"WVR-Q": {
+		"quirks": [
+			"WVR-Q",
+			"WVR-HERO"
+		]
+	},
+	"Zeus_MDL": {
+		"quirks": [
+			"BARREL-FIST (R)",
+			"EASYTOMAINTAIN"
+		]
+	},
+	"ZEU-6Y": {
+		"quirks": [
+			"IMP-COOLING-BINARY"
+		]
+	},
+	"ZEU-SK": {
+		"quirks": [
+			"ZEU-SK",
+			"ZEU-HERO"
+		]
+	}
+}

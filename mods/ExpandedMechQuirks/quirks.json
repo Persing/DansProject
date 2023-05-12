@@ -1,0 +1,6305 @@
+{
+	"_information": {
+		"Category___\"color": "RGB_value",
+
+		"MultiWeapon\"color": "(R=0.000000,G=0.848808,B=1.000000,A=1)",
+		"Ballistic__\"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"Energy_____\"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"Missile____\"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"MissileSlot\"color": "(R=0.135633,G=0.597202,B=0.116971,A=1)",
+		"AMS________\"color": "(R=0.474510,G=0.082353,B=0.090196,A=1)",
+		"Melee______\"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+
+		"AmmoMiscCat\"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"Cooling____\"color": "(R=0.443000,G=0.126000,B=1.000000,A=1)",
+		"Filler_____\"color": "(R=0.047059,G=0.047059,B=0.047059,A=1)",
+		"Cockpit____\"color": "(R=0.624931,G=1.000000,B=0.000000,A=1)",
+		"Engine_____\"color": "(R=1.000000,G=0.513047,B=0.110182,A=1)",
+
+		"Mobility___\"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"JumpJet____\"color": "(R=0.076185,G=0.212231,B=0.063010,A=1)",
+		"JumpJet_Alt\"color": "(R=0.074510,G=0.211765,B=0.062745,A=1)",
+		"MASC_SC____\"color": "(R=0.009721,G=1.000000,B=0.514918,A=1)",
+		"MASC_SC_Alt\"color": "(R=0.007843,G=1.000000,B=0.513726,A=1)",
+		"Myomer_____\"color": "(R=0.007843,G=1.000000,B=0.513726,A=1)",
+
+		"Electronics\"color": "(R=1.000000,G=0.115883,B=0.000000,A=1)",
+		"ActiveProbe\"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"ECMSensors_\"color": "(R=0.749020,G=0.156863,B=0.000000,A=1)",
+		"UAVDrone___\"color": "(R=0.749020,G=0.156863,B=0.000000,A=1)",
+		"Computer___\"color": "(R=1.000000,G=0.260000,B=0.000000,A=1)",
+
+		"_ArmorCat__\"color": "(R=1.0000,G=0.1922,B=0.0000,A=1)",
+		"Armor______\"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"Structure__\"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"ArmorMod___\"color": "(R=0.590000,G=0.030000,B=0.110000,A=1)",
+		"_Patchwork_\"color": "(R=.07059,G=0.6980,B=0.6980,A=1)",
+		"Repair_____\"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+
+		"_Special___\"color": "(R=0.5,G=0.5,B=1.0,A=1)",
+		"Evasion____\"color": "(R=0.000000,G=0.750000,B=0.750000,A=1)",
+		"Skills_____\"color": "(R=0.400000,G=0.400000,B=0.600000,A=1)",
+		"Flavor_____\"color": "(R=1.000000,G=0.000000,B=1.000000,A=1)",
+		"Custom_____\"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"FrankenMech\"color": "(R=0.000000,G=0.750000,B=0.000000,A=1)",
+	"":0},
+
+	"ACCURATE_WEAPON": {
+	"":0},
+	"ANTIAIR_TARGETING": {
+		"name": "Anti-Air Targeting",
+		"description": "This 'Mech has a targeting computer that displays a predictive targeting reticle when targeting aircraft",
+		"color": "(R=1.000000,G=0.260000,B=0.000000,A=1)",
+		"properties": {
+			"antiAirTargeting": true,
+		"":0},
+	"":0},
+	"BARREL_FIST_L": {
+		"name": "Barrel Fist (L)",
+		"description": "This 'Mech can melee unexpectedly capably using its hand-less left arm",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"mechParts": [
+							"LeftArm",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BARREL_FIST_R": {
+		"name": "Barrel Fist (R)",
+		"description": "This 'Mech can melee unexpectedly capably using its hand-less right arm",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"mechParts": [
+							"RightArm",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BARREL_FISTS": {
+		"name": "Barrel Fists",
+		"description": "This 'Mech can melee unexpectedly capably using its hand-less arms",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BATTLECOMP": {
+		"name": "Battle Computer",
+		"description": "The Tacticon B-2000 Battle Computer extends sensor range",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeMulti": 1.25,
+		"":0},
+	"":0},
+	"BATTLEFIST_L": {
+		"name": "Battlefist (L)",
+		"description": "The left Hand actuator of a 'Mech with Battlefist has been specially modified for close combat",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"mechParts": [
+							"LeftArm",
+						[]],
+						"damageMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BATTLEFIST_R": {
+		"name": "Battlefist (R)",
+		"description": "The right Hand actuator of a 'Mech with Battlefist has been specially modified for close combat",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"mechParts": [
+							"RightArm",
+						[]],
+						"damageMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BATTLEFISTS": {
+		"name": "Battlefists",
+		"description": "The Hand actuators of a 'Mech with Battlefists have been specially modified for close combat",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CBTCPU": {
+		"name": "Combat Computer",
+		"description": "An advanced Combat Computer can manage heat levels more efficiently than standard computers",
+		"color": "(R=0.443000,G=0.126000,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CMD_MECH": {
+		"name": "Command 'Mech",
+		"description": "This 'Mech has been designed as a command unit, effectively extending sensor range",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeBonus": 100,
+		"":0},
+	"":0},
+	"COMPACT_MECH": {
+		"name": "Compact 'Mech",
+		"description": "(non-functional flavor text)\nThis 'Mech is especially small and easy to transport, taking up half the normal space in a transport",
+		"color": "(R=1.000000,G=0.000000,B=1.000000,A=1)",
+		"properties": {
+		"":0},
+	"":0},
+	"COWL": {
+		"name": "Cowl",
+		"description": "This 'Mech has a cowl around its cockpit resulting in increased head armor",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"Head": 6,
+			"":0},
+		"":0},
+	"":0},
+	"DIR_TORSO_MOUNT": {
+	"":0},
+	"DISTRACTING": {
+		"name": "Distracting",
+		"description": "This 'Mech has a fearsome reputation and/or appearance that can affect enemy competence",
+		"color": "(R=0.000000,G=0.750000,B=0.750000,A=1)",
+		"properties": {
+			"dmgEvasionChance": 0.05,
+		"":0},
+	"":0},
+	"EASYTOMAINTAIN": {
+		"name": "Easy To Maintain",
+		"description": "This 'Mech is designed for easy maintenance",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"structureRepairCostMulti": 0.8,
+			"structureRepairDaysMulti": 0.8,
+			"armorRepairCostMulti": 0.8,
+			"armorRepairDaysMulti": 0.8,
+		"":0},
+	"":0},
+	"EASY_PILOT": {
+		"name": "Easy to Pilot",
+		"description": "This 'Mech is designed to be used by the Greenest pilots and gets a bonus to Piloting Skill",
+		"color": "(R=0.400000,G=0.400000,B=0.600000,A=1)",
+		"properties": {
+			"pilotingSkillBonus": 1,
+		"":0},
+	"":0},
+	"EXT_TWIST": {
+		"name": "Extended Torso Twist",
+		"description": "This 'Mech can twist its torso further than typical",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistAngleMulti": 1.1,
+		"":0},
+	"":0},
+	"FAST_RELOAD_AC": {
+		"name": "Fast Reload AC",
+		"description": "Shortened reload time for the weapon group it is applied to",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Autocannon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FAST_RELOAD_AC10": {
+		"name": "Fast Reload AC/10",
+		"description": "Shortened reload time for the weapon it is applied to",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "AC/10",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC10",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FAST_RELOAD_LBX10": {
+		"name": "Fast Reload LBX/10",
+		"description": "Shortened reload time for the weapon it is applied to",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "LBX/10",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX.LBX10",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FAST_RELOAD_LRM": {
+		"name": "Fast Reload LRM",
+		"description": "Shortened reload time for the weapon group it is applied to",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "LRM",
+						"tags": [
+							"Weapon.ArtemisMissile.LRM",
+							"Weapon.Missile.LRM",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FAST_RELOAD_TORSO": {
+		"name": "Fast Reload (Torso)",
+		"description": "Shortened reload time for torso-mounted weapons",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Torso Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"mechParts": [
+							"LeftTorso",
+							"RightTorso",
+							"CenterTorso",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FINE_MANIP": {
+	"":0},
+	"GOOD_REP": {
+		"name": "Good Reputation",
+		"description": "(non-functional flavor text)\nThis 'Mech has earned a good reputation either through proven capabilities or via clever marketing",
+		"color": "(R=1.000000,G=0.000000,B=1.000000,A=1)",
+		"properties": {
+		"":0},
+	"":0},
+	"HYPER_ACTUATOR": {
+		"name": "Hyper-Extending Actuators",
+		"description": "This 'Mech can point its arms into the rear arc",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"armTwistAngleMulti": 3.0,
+		"":0},
+	"":0},
+	"HYPER_ACTUATOR_DV": {
+		"name": "Hyper-Extending Actuators",
+		"description": "This 'Mech can point its arms into the rear arc",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"armTwistAngleMulti": 2.0,
+		"":0},
+	"":0},
+	"HYPER_ACTUATOR_MAD": {
+		"name": "Hyper-Extending Actuators",
+		"description": "This 'Mech can point its arms into the rear arc",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"armTwistAngleMulti": 4.0,
+		"":0},
+	"":0},
+	"HYPER_ACTUATOR_QKD": {
+		"name": "Hyper-Extending Actuators",
+		"description": "This 'Mech can point its arms into the rear arc",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistAngleMulti": 1.1,
+			"armTwistAngleMulti": 2.4,
+		"":0},
+	"":0},
+	"IMPROVED_COMS": {
+		"name": "Improved Communications",
+		"description": "This 'Mech has an exceptionally powerful communications suite and gains a benefit to sensor range",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeBonus": 100,
+		"":0},
+	"":0},
+	"IMP_COOLING": {
+		"name": "Improved Cooling Jackets",
+		"description": "Improved Cooling Jackets reduce the heat generated by weapons mounted on this 'Mech",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"IMP_COOLING_AC": {
+		"name": "Improved Cooling AC",
+		"description": "An Improved Cooling Jacket reduces the heat generated by the weapon group it is applied to",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Autocannon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"IMP_COOLING_PPC": {
+		"name": "Improved Cooling PPC",
+		"description": "An Improved Cooling Jacket reduces the heat generated by the weapon group it is applied to",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"IMP_LIFE_SUPPORT": {
+		"name": "Improved Life Support",
+		"description": "This 'Mech has enhanced defenses for the pilot",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"Head": 4,
+			"":0},
+		"":0},
+	"":0},
+	"IMP_SENSORS": {
+	"":0},
+	"IMPROVED_TARGETING": {
+		"name": "Improved Targeting",
+		"description": "This 'Mech has a targeting computer that displays a predictive targeting reticle",
+		"color": "(R=1.000000,G=0.260000,B=0.000000,A=1)",
+		"properties": {
+			"predictiveTargeting": true,
+		"":0},
+	"":0},
+	"IMPROVED_TARGETING_LONG": {
+		"name": "Improved Targeting (Long)",
+		"description": "This 'Mech has a targeting computer that improves accuracy of long range weaponry",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Long Range Weapon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC2",
+							"Weapon.Ballistic.AutoCannon.Ultra.AC2",
+							"Weapon.Ballistic.AutoCannon.Standard.AC5",
+							"Weapon.Ballistic.AutoCannon.Ultra.AC5",
+							"Weapon.Ballistic.AutoCannon.Standard.AC10",
+							"Weapon.Ballistic.AutoCannon.Ultra.AC10",
+							"Weapon.Ballistic.GaussRifle",
+							"Weapon.Ballistic.Rifle",
+							"Weapon.Energy.Laser.ER",
+							"Weapon.Energy.Laser.Chemical.Large",
+							"Weapon.Energy.Laser.Pulse.Large",
+							"Weapon.Energy.Laser.Standard.Large",
+							"Weapon.Energy.ParticleCannon",
+							"Weapon.Missile.LRM",
+							"Weapon.ArtemisMissile.LRM",
+						[]],
+						"spreadRadiusMulti": 0.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"IMPROVED_TARGETING_MEDIUM": {
+		"name": "Improved Targeting (Medium)",
+		"description": "This 'Mech has a targeting computer that improves accuracy of medium range weaponry",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Medium Range Weapon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC20",
+							"Weapon.Ballistic.AutoCannon.Ultra.AC20",
+							"Weapon.Energy.Laser.Chemical.Medium",
+							"Weapon.Energy.Laser.Pulse.Medium",
+							"Weapon.Energy.Laser.Standard.Medium",
+						[]],
+						"spreadRadiusMulti": 0.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"IMPROVED_TARGETING_SHORT": {
+		"name": "Improved Targeting (Short)",
+		"description": "This 'Mech has a targeting computer that improves accuracy of short range weaponry",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Short Range Weapon",
+						"tags": [
+							"Weapon.Ballistic.MG",
+							"Weapon.Energy.Flamer",
+							"Weapon.Energy.Laser.Chemical.Small",
+							"Weapon.Energy.Laser.Pulse.Small",
+							"Weapon.Energy.Laser.Standard.Small",
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM",
+						[]],
+						"spreadRadiusMulti": 0.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"JETTISON_WEAPON": {
+	"":0},
+	"LOW_PROFILE": {
+		"name": "Low Profile",
+		"description": "The 'Mech is constructed to present a low profile to any incoming fire",
+		"color": "(R=0.000000,G=0.750000,B=0.750000,A=1)",
+		"properties": {
+			"dmgEvasionChance": 0.1,
+		"":0},
+	"":0},
+	"MODULAR_WEAPONS": {
+		"name": "Modular Weapons",
+		"description": "Weapons can be repaired and replaced in half the normal time, reducing overall maintenance times",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"structureRepairDaysMulti": 0.75,
+			"armorRepairDaysMulti": 0.75,
+		"":0},
+	"":0},
+	"MULTITRAC": {
+		"name": "Multi-Trac",
+		"description": "This 'Mech has a targeting computer that displays a predictive targeting reticle and improves lock-on time",
+		"color": "(R=1.000000,G=0.260000,B=0.000000,A=1)",
+		"properties": {
+			"predictiveTargeting": true,
+			"weapons": {
+				"lockonTimeMulti": 0.8,
+			"":0},
+		"":0},
+	"":0},
+	"NARROW_PROFILE": {
+		"name": "Narrow Profile",
+		"description": "The 'Mech is constructed to present a narrow profile to any incoming fire",
+		"color": "(R=0.000000,G=0.750000,B=0.750000,A=1)",
+		"properties": {
+			"dmgEvasionChance": 0.1,
+		"":0},
+	"":0},
+	"NIMBLEJUMPER": {
+		"name": "Nimble Jumper",
+		"description": "This 'Mech is designed to be more effective with Jump Jets",
+		"color": "(R=0.074510,G=0.211765,B=0.062745,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetXyAccelMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+		"":0},
+	"":0},
+	"OVERHEAD_ARMS": {
+		"name": "Overhead Arms",
+		"description": "This 'Mech's arms are mounted high and can fire over some obstacles, possessing extra armor to absorb the anticipated return fire",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"LeftArm": 8,
+				"RightArm": 8,
+			"":0},
+		"":0},
+	"":0},
+	"PROTECTED_ACTUATOR": {
+		"name": "Protected Actuators",
+		"description": "This 'Mech has reinforced ankle actuators making it a tougher target for leg attacks",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"LeftLeg": 4,
+				"RightLeg": 4,
+			"":0},
+		"":0},
+	"":0},
+	"REINFORCED_LEGS": {
+		"name": "Reinforced Legs",
+		"description": "This 'Mech is less susceptible to leg damage",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"LeftLeg": 6,
+				"RightLeg": 6,
+			"":0},
+		"":0},
+	"":0},
+	"RUGGED1":{
+		"name": "Rugged (1)",
+		"description": "This 'Mech does not require much attention to keep it active and ready",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"upkeepCostMulti": 0.5,
+		"":0},
+	"":0},
+	"RUGGED2":{
+		"name": "Rugged (2)",
+		"description": "This 'Mech does not require much attention to keep it active and ready",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"upkeepCostMulti": 0.33,
+		"":0},
+	"":0},
+	"SEARCHLIGHT": {
+		"name": "Searchlight",
+		"description": "This 'Mech has been fitted with a high-powered searchlight",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"features": [
+				"searchlight",
+			[]],
+		"":0},
+	"":0},
+	"STABLE": {
+		"name": "Stable",
+		"description": "This 'Mech is inherently stable and gets a bonus to mobility",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 1.07,
+			"turnSpeedMulti": 1.07,
+			"accelerationMulti": 1.07,
+			"decelerationMulti": 1.07,
+		"":0},
+	"":0},
+	"STABILIZED_WEAPON": {
+		"name": "Stabilized Weapon",
+		"description": "This 'Mech has been designed to reduce recoil of fired weapons, effectively reducing weapon spread",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"spreadRadiusMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"UBIQUITOUS": {
+		"name": "Ubiquitous",
+		"description": "This 'Mech has been in production for centuries or is otherwise so heavily mass-produced that replacement parts are readily available",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureRepairCostMulti": 0.5,
+		"":0},
+	"":0},
+	"VARRANGE_TARGETING": {
+		"name": "Variable Range Targeting",
+		"description": "This 'Mech has a targeting computer that displays a predictive targeting reticle",
+		"color": "(R=1.000000,G=0.260000,B=0.000000,A=1)",
+		"properties": {
+			"predictiveTargeting": true,
+		"":0},
+	"":0},
+	"VESTIGIAL_HANDS": {
+	"":0},
+
+	"BAD_REP": {
+		"name": "Bad Reputation",
+		"description": "(non-functional flavor text)\nThis 'Mech is perfectly sound and operable, but for some reason has earned a bad reputation",
+		"color": "(R=1.000000,G=0.000000,B=1.000000,A=1)",
+		"properties": {
+		"":0},
+	"":0},
+	"COOLING_FLAWS": {
+		"name": "Cooling System Flaws",
+		"description": "This 'Mech has a design flaw resulting in excess heat buildup",
+		"color": "(R=0.443000,G=0.126000,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CRAMPED_COCKPIT": {
+		"name": "Cramped Cockpit",
+		"description": "This 'Mech has an uncomfortably small cockpit that makes it unpleasant to pilot",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 0.93,
+			"turnSpeedMulti": 0.93,
+			"accelerationMulti": 0.93,
+			"decelerationMulti": 0.93,
+		"":0},
+	"":0},
+	"DIFFICULT_EJECT": {
+		"name": "Difficult Ejection",
+		"description": "This 'Mech has flaws in its emergency escape system, effectively reducing head structure",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"Head": -4,
+			"":0},
+		"":0},
+	"":0},
+	"DIFFICULTTOMAINTAIN": {
+		"name": "Difficult To Maintain",
+		"description": "This 'Mech is built with little regard to maintenance",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"structureRepairCostMulti": 1.2,
+			"structureRepairDaysMulti": 1.2,
+			"armorRepairCostMulti": 1.2,
+			"armorRepairDaysMulti": 1.2,
+		"":0},
+	"":0},
+	"EM_INTERFERENCE": {
+	"":0},
+	"EXP_ACTUATOR": {
+		"name": "Exposed Actuators",
+		"description": "This 'Mech has fragile ankle actuators making it an easier target for leg attacks",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"LeftLeg": -2,
+				"RightLeg": -2,
+			"":0},
+		"":0},
+	"":0},
+	"EXPOSED_LINKAGE": {
+		"name": "Exposed Weapon Linkage",
+		"description": "This 'Mech has fragile arm actuators making it an easier target for arm attacks",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"LeftArm": -2,
+				"RightArm": -2,
+			"":0},
+		"":0},
+	"":0},
+	"EXPOSED_LINKAGE_RT": {
+		"name": "Exposed Weapon Linkage",
+		"description": "This 'Mech has an exposed weapon linkage to its right torso weaponry",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"RightTorso": -2,
+			"":0},
+		"":0},
+	"":0},
+	"HARD_PILOT": {
+		"name": "Hard to Pilot",
+		"description": "This 'Mech is designed to be used by expert pilots and gets a penalty to Piloting Skill",
+		"color": "(R=0.400000,G=0.400000,B=0.600000,A=1)",
+		"properties": {
+			"pilotingSkillBonus": -1,
+		"":0},
+	"":0},
+	"ILLEGAL_DESIGN": {
+	"":0},
+	"INACCURATE_WEAPON": {
+	"":0},
+	"LOW_ARMS": {
+	"":0},
+	"MIN_ARMS": {
+		"name": "Minimal Arms",
+		"description": "(non-functional flavor text)\nThis 'Mech cannot perform physical attacks with its arms",
+		"color": "(R=1.000000,G=0.000000,B=1.000000,A=1)",
+		"properties": {
+		"":0},
+	"":0},
+	"NO_ARMS": {
+	"":0},
+	"NO_COOLING": {
+	"":0},
+	"NO_EJECT": {
+		"name": "No Ejection System",
+		"description": "(non-functional flavor text)\nThis 'Mech lacks an emergency escape system",
+		"color": "(R=1.000000,G=0.000000,B=1.000000,A=1)",
+		"properties": {
+		"":0},
+	"":0},
+	"NO_TWIST": {
+		"name": "Reduced Torso Twist",
+		"description": "This 'Mech has slightly reduced torso twist speed",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 0.95,
+		"":0},
+	"":0},
+	"NON_FUNCTIONAL_ITEM": {
+	"":0},
+	"NON_STANDARD_PARTS": {
+		"name": "Non-Standard Parts",
+		"description": "This 'Mech is constructed with non-standard components such that replacement parts are not readily available",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureRepairCostMulti": 1.25,
+		"":0},
+	"":0},
+	"OBSOLETE": {
+	"":0},
+	"OVERSIZED": {
+	"":0},
+	"POOR_COOLING": {
+	"":0},
+	"POOR_LIFE_SUPPORT": {
+		"name": "Poor Life Support",
+		"description": "This 'Mech has reduced defenses for the pilot",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"Head": -2,
+			"":0},
+		"":0},
+	"":0},
+	"POOR_PERFORMANCE": {
+	"":0},
+	"POOR_SEALING": {
+	"":0},
+	"POOR_TARGETING": {
+		"name": "Poor Targeting",
+		"description": "This 'Mech has an impaired targeting computer that cannot display a predictive targeting reticle",
+		"color": "(R=1.000000,G=0.260000,B=0.000000,A=1)",
+		"properties": {
+			"predictiveTargeting": false,
+		"":0},
+	"":0},
+	"POOR_TARGETING_SHORT": {
+		"name": "Poor Targeting (Short)",
+		"description": "This 'Mech has an impaired targeting computer that compromises accuracy of short range weaponry",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Short Range Weapon",
+						"tags": [
+							"Weapon.Ballistic.MG",
+							"Weapon.Energy.Flamer",
+							"Weapon.Energy.Laser.Chemical.Small",
+							"Weapon.Energy.Laser.Pulse.Small",
+							"Weapon.Energy.Laser.Standard.Small",
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM",
+						[]],
+						"spreadRadiusMulti": 1.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"POOR_TARGETING_PPC": {
+		"name": "Poor Targeting (PPC)",
+		"description": "This 'Mech has an impaired targeting computer that compromises accuracy of the weapon group it is applied to",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"spreadRadiusMulti": 1.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"POOR_WORKMANSHIP": {
+		"name": "Poor Workmanship",
+		"description": "This 'Mech is one quality step lower than normal",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"Head": -1,
+				"CenterTorso": -1,
+				"RearCenterTorso": -1,
+				"LeftTorso": -1,
+				"RearLeftTorso": -1,
+				"RightTorso": -1,
+				"RearRightTorso": -1,
+				"LeftLeg": -1,
+				"RightLeg": -1,
+				"LeftArm": -1,
+				"RightArm": -1,
+			"":0},
+		"":0},
+	"":0},
+	"PROTOTYPE": {
+		"name": "Prototype",
+		"description": "This 'Mech's systems are less resilient and lack the redundancy that will be incorporated into the production model",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": -2,
+				"LeftTorso": -2,
+				"RightTorso": -2,
+			"":0},
+		"":0},
+	"":0},
+	"RAMSHACKLE": {
+		"name": "Ramshackle",
+		"description": "Hard service and substandard maintenance have led to an unpredictable machine patched together with bailing wire and prayers",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"Head": -1,
+				"CenterTorso": -1,
+				"LeftTorso": -1,
+				"RightTorso": -1,
+				"LeftLeg": -1,
+				"RightLeg": -1,
+				"LeftArm": -1,
+				"RightArm": -1,
+			"":0},
+		"":0},
+	"":0},
+	"SENSOR_GHOSTS": {
+	"":0},
+	"SLOW_TRAVERSE": {
+	"":0},
+	"STATIC_AMMO_FEED": {
+	"":0},
+	"UNBALANCED": {
+		"name": "Unbalanced",
+		"description": "This 'Mech is inherently imbalanced and suffers a penalty to mobility",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistRateMulti": 0.93,
+			"turnSpeedMulti": 0.93,
+			"accelerationMulti": 0.93,
+			"decelerationMulti": 0.93,
+		"":0},
+	"":0},
+	"WEAK_HEAD_1": {
+		"name": "Weak Head Armor (1)",
+		"description": "This 'Mech has less potential and maximum armor protecting its cockpit than typical",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"Head": -3,
+			"":0},
+		"":0},
+	"":0},
+	"WEAK_HEAD_2": {
+		"name": "Weak Head Armor (2)",
+		"description": "This 'Mech has less potential and maximum armor protecting its cockpit than typical",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"Head": -6,
+			"":0},
+		"":0},
+	"":0},
+	"WEAK_LEGS": {
+		"name": "Weak Legs",
+		"description": "This 'Mech has legs that buckle under pressure",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"LeftLeg": -2,
+				"RightLeg": -2,
+			"":0},
+		"":0},
+	"":0},
+	"WEAPON_JAM_AC": {
+		"name": "Ammo Feed Problem AC",
+		"description": "Increased jam chance for the weapon group it is applied to",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Autocannon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard",
+						[]],
+						"jamChanceBonus": 0.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WEAPON_JAM_AC10": {
+		"name": "Ammo Feed Problem AC/10",
+		"description": "Increased jam chance for the weapon it is applied to",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "AC/10",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC10",
+						[]],
+						"jamChanceBonus": 0.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WEAPON_JAM_AC20": {
+		"name": "Ammo Feed Problem AC/20",
+		"description": "Increased jam chance for the weapon it is applied to",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "AC/20",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC20",
+						[]],
+						"jamChanceBonus": 0.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WEAPON_JAM_MISSILE": {
+		"name": "Ammo Feed Problem Missile",
+		"description": "Increased jam chance for the weapon group it is applied to",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"jamChanceBonus": 0.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WEAPON_JAM_SRM": {
+		"name": "Ammo Feed Problem SRM",
+		"description": "Increased jam chance for the weapon group it is applied to",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "SRM",
+						"tags": [
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM",
+						[]],
+						"jamChanceBonus": 0.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+
+	"ARTICULATE_ANKLE": {
+	"":0},
+	"COOLANT_COUPLER": {
+		"name": "Coolant Coupler",
+		"description": "(non-functional flavor text)\nThis 'Mech takes less time to hook up to a coolant truck than normal because of the built in coupler",
+		"color": "(R=1.000000,G=0.000000,B=1.000000,A=1)",
+		"properties": {
+		"":0},
+	"":0},
+	"FULL_HEAD_EJECT": {
+		"name": "Full-Head Ejection System",
+		"description": "This 'Mech's entire head launches off in the event of an ejection, effectively boosting head structure",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"Head": 12,
+			"":0},
+		"":0},
+	"":0},
+	"FULL_TWIST": {
+		"name": "Full 360 Torso Twist",
+		"description": "This 'Mech can freely twist its torso a full 360 degrees",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"torsoTwistAngleMulti": 2.0,
+		"":0},
+	"":0},
+	"POWER_REVERSE": {
+		"name": "Power Reverse",
+		"description": "This 'Mech can go practically as fast backward as it can forward",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"topSpeedReverseMulti": 1.5,
+		"":0},
+	"":0},
+
+	"BSC_SYSTEM": {
+		"name": "BSC System",
+		"description": "The Ballistic Siege Compensator improves performance of ballistic weapons",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic Weapon",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"damageMulti": 1.05,
+						"spreadRadiusMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CQC_SUITE": {
+		"name": "CQC Suite",
+		"description": "This 'Mech has a range boost to short range weaponry",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Support Weapon",
+						"tags": [
+							"Weapon.Ballistic.MG",
+							"Weapon.Energy.Flamer",
+							"Weapon.Energy.Laser.Chemical.Small",
+							"Weapon.Energy.Laser.Pulse.Small",
+							"Weapon.Energy.Laser.Standard.Small",
+						[]],
+						"optimalRangeMulti": 1.25,
+						"maxRangeMulti": 1.25,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"INTERCEPT_SYSTEM": {
+		"name": "Intercept System",
+		"description": "This 'Mech has a targeting computer that displays a predictive targeting reticle",
+		"color": "(R=1.000000,G=0.260000,B=0.000000,A=1)",
+		"properties": {
+			"predictiveTargeting": true,
+		"":0},
+	"":0},
+	"MISSILERY_SUITE": {
+		"name": "Missilery Suite",
+		"description": "The Missilery Suite improves lock-on time, speed and clustering for LRM weaponry",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"lockonTimeMulti": 0.8,
+				"groups": [
+					{
+						"weaponGroupName": "LRM",
+						"tags": [
+							"Weapon.ArtemisMissile.LRM",
+							"Weapon.Missile.LRM",
+						[]],
+						"spreadRadiusMulti": 0.5,
+						"speedMulti": 1.25,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"OPTIMISED_CAPACITORS": {
+		"name": "Optimised Capacitors",
+		"description": "Optimised Capacitors improve damage output for energy weapons",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"damageMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"RANGEFINDER_SUITE": {
+		"name": "Rangefinder Suite",
+		"description": "The Rangefinder Suite assists in distant target acquisition via a benefit to sensor range",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeBonus": 100,
+		"":0},
+	"":0},
+	"TARGETING_BAFFLES": {
+		"name": "Targeting Baffles",
+		"description": "This 'Mech has reinforced side baffles, boosting its durability",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"LeftArm": 6,
+				"RightArm": 6,
+			"":0},
+		"":0},
+	"":0},
+	"VECTORED_THRUST": {
+		"name": "Vectored Thrust Kit",
+		"description": "This 'Mech is designed to thrust fast and hard with Jump Jets",
+		"color": "(R=0.074510,G=0.211765,B=0.062745,A=1)",
+		"properties": {
+			"jumpJetInitialZVelocityMulti": 1.5,
+			"jumpJetXyAccelMulti": 1.5,
+			"jumpJetFuelBurnTimeMulti": 0.5,
+			"jumpJetFuelRegenTimeMulti": 0.5,
+			"jumpJetHeatMulti": 2.0,
+		"":0},
+	"":0},
+
+	"AERODYNAMIC": {
+		"name": "Aerodynamic",
+		"description": "This 'Mech has a streamlined shape that enhances speed and acceleration",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"topSpeedMulti": 1.0667,
+			"accelerationMulti": 1.25,
+		"":0},
+	"":0},
+	"ASSAULT_SCOUT": {
+		"name": "Ultra-Heavy Scout",
+		"description": "An over-provisioned engine gives more speed than is responsible for a 'Mech this massive",
+		"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"properties": {
+			"topSpeedMulti": 1.0667,
+			"topSpeedReverseMulti": 1.0667,
+		"":0},
+	"":0},
+	"ASSAULT_SUPPORT": {
+		"name": "Ultra-Heavy Support",
+		"description": "An over-provisioned gyro gives more agility than is responsible for a 'Mech this massive",
+		"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"properties": {
+			"armTwistRateMulti": 1.07,
+			"torsoTwistRateMulti": 1.07,
+			"turnSpeedMulti": 1.07,
+			"accelerationMulti": 1.07,
+			"decelerationMulti": 1.07,
+		"":0},
+	"":0},
+	"EXPERIMENTAL_PPC": {
+		"name": "Experimental Light PPC (PPC)",
+		"description": "Altered stats for the weapon it is applied to",
+		"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Standard PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon.PPC",
+						[]],
+						"mechParts": [
+							"RightTorso",
+						[]],
+						"damageMulti": 0.5,
+						"cooldownMulti": 0.5,
+						"heatMulti": 0.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"EXPERIMENTAL_UAC": {
+		"name": "Experimental Rotary AC (UAC)",
+		"description": "Altered stats for the weapon it is applied to",
+		"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ultra AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra",
+						[]],
+						"mechParts": [
+							"LeftTorso",
+						[]],
+						"damageMulti": 0.33,
+						"cooldownMulti": 0.25,
+						"heatMulti": 2.0,
+						"ammoMulti": 4.0,
+						"jamChanceMulti": 1.33,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HEAT_VENT": {
+		"name": "Manual Heat Vent",
+		"description": "This 'Mech can use a torso-mounted Flamer to manually eject excess heat",
+		"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer",
+						[]],
+						"mechParts": [
+							"LeftTorso",
+							"RightTorso",
+							"CenterTorso",
+						[]],
+						"heatMulti": -2.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HIGH_MAINTENANCE":{
+		"name": "High Maintenance",
+		"description": "This 'Mech requires extra attention to keep it active and ready",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"upkeepCostMulti": 1.1,
+		"":0},
+	"":0},
+	"HIGH_MANEUVER": {
+		"name": "High Maneuverability",
+		"description": "This 'Mech has a reduced risk of being outflanked and surrounded",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"turnSpeedMulti": 1.07,
+			"decelerationMulti": 1.07,
+		"":0},
+	"":0},
+	"IMPROVED_EJECT": {
+		"name": "Improved Ejection System",
+		"description": "This 'Mech has an enhanced pilot ejection mechanism, effectively boosting head structure",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"Head": 8,
+			"":0},
+		"":0},
+	"":0},
+	"JAM_PROOF_UAC": {
+		"name": "Reliable Ammo Feed UAC",
+		"description": "Removed jam chance for the weapon it is applied to",
+		"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "UAC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra",
+						[]],
+						"jamChanceMulti": 0.0,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"LOW_MAINTENANCE":{
+		"name": "Low Maintenance",
+		"description": "This 'Mech does not require much attention to keep it active and ready",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"upkeepCostMulti": 0.75,
+		"":0},
+	"":0},
+	"LOW_MANEUVER": {
+		"name": "Low Maneuverability",
+		"description": "This 'Mech has a heightened risk of being outflanked and surrounded",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"turnSpeedMulti": 0.93,
+			"decelerationMulti": 0.93,
+		"":0},
+	"":0},
+	"MACHINE_GUNNER": {
+		"name": "Machine Gunner",
+		"description": "This 'Mech has special accommodations for basic machine guns, doubling their range",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"optimalRangeMulti": 2.0,
+						"maxRangeMulti": 2.0,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"REAR_WEAPON": {
+		"name": "Rear-Mounted Weaponry",
+		"description": "This 'Mech has rearward-facing chemical lasers",
+		"color": "(R=0.000000,G=0.500000,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Chemical Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Chemical",
+						[]],
+						"speedMulti": -1.0,
+						"nullRangeMulti": -1.0,
+						"minRangeMulti": -1.0,
+						"optimalRangeMulti": -1.0,
+						"maxRangeMulti": -1.0,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ROOMY_COCKPIT": {
+		"name": "Roomy Cockpit",
+		"description": "This 'Mech has a famously roomy cockpit with elbow room to spare making the controls just a little more pleasant to use",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"armTwistRateMulti": 1.07,
+			"torsoTwistRateMulti": 1.07,
+		"":0},
+	"":0},
+	"STANDARD_PARTS": {
+		"name": "Standard Parts",
+		"description": "This 'Mech is constructed with common components such that replacement parts are plentiful",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureRepairCostMulti": 0.75,
+		"":0},
+	"":0},
+	"WEAK_ROTATION_RINGS": {
+		"name": "Weak Rotation Rings",
+		"description": "This 'Mech has a weak point in the rotation rings connecting the chassis with the leg assemblies",
+		"color": "(R=0.208333,G=0.243547,B=1.000000,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": -2,
+			"":0},
+		"":0},
+	"":0},
+
+	"AIV-PLATFORM": {
+		"name": "Arrow IV Platform",
+		"description": "This specific 'Mech was modified to be a Arrow IV platform and has improved AIV performance",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"lockonTimeMulti": 0.8,
+				"groups": [
+					{
+						"weaponGroupName": "Arrow IV",
+						"tags": [
+							"Weapon.ArtemisMissile.ArrowIV",
+						[]],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.8,
+						"speedMulti": 1.3,
+						"minRangeMulti": 0.5,
+						"nullRangeMulti": 0.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ENERGYPROF": {
+		"name": "Energy Proficiency",
+		"description": "This 'Mech chassis has optimized components for all Energy type weapons",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"MELEE": {
+		"name": "Melee Specialization",
+		"description": "This 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"MGAMMO1": {
+		"name": "Bonus Ammo",
+		"description": "This 'Mech is capable of storing more ammo for machineguns",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "All machineguns",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"ammoMulti": 1.25,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"MISSILEBOAT": {
+		"name": "Missile Platform",
+		"description": "This 'Mech was designed to be a Missile platform and has improved Missile heat efficiency",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"lockonTimeMulti": 0.8,
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"REINFORCEDCOCKPIT": {
+		"name": "Reinforced Cockpit",
+		"description": "This 'Mech's cockpit is well hidden inside its structure, making it resistant to damage",
+		"color": "(R=0.590000,G=0.030000,B=0.110000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"Head": 7,
+			"":0},
+			"structureBonus": {
+				"Head": 5,
+			"":0},
+		"":0},
+	"":0},
+	"SLDF": {
+		"name": "Star League Relic",
+		"description": "The Star League Defense Force used the best tech of their time",
+		"color": "(R=0.5,G=0.5,B=1.0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+				"lockonTimeMulti": 0.9,
+			"":0},
+			"sensorRangeBonus": 100,
+		"":0},
+	"":0},
+
+	"ARC-LRM": {
+		"name": "LRM Platform",
+		"description": "The Archer was designed to be a Long Range Missile platform and has improved LRM performance",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"lockonTimeMulti": 0.8,
+				"groups": [
+					{
+						"weaponGroupName": "LRM Missile",
+						"tags": [
+							"Weapon.Missile.LRM",
+							"Weapon.ArtemisMissile.LRM",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.85,
+						"speedMulti": 1.25,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"AS7-K3": {
+		"name": "AS7-K3 Mobility",
+		"description": "This Variant is designed to be more maneuverable",
+		"color": "(R=0.009721,G=1.0,B=0.514918,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+			"torsoTwistAngleMulti": 1.1,
+			"torsoTwistRateMulti": 1.1,
+			"turnSpeedMulti": 1.1,
+			"accelerationMulti": 1.1,
+			"decelerationMulti": 1.1,
+		"":0},
+	"":0},
+	"AWS-PPC": {
+		"name": "PPC Platform",
+		"description": "The Awesome was designed to be a Particle Projection Cannon platform and has improved PPC performance",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.85,
+						"speedMulti": 1.25,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BNC-MELEE": {
+		"name": "Hulk Smash",
+		"description": "The Banshee has gigantic gorilla arms for a reason",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.3,
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CN9-SHIELD": {
+		"name": "Centurion Shield",
+		"description": "This Centurion's left arm is designed to be a shield",
+		"color": "(R=0.590000,G=0.030000,B=0.110000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"LeftArm": 24,
+			"":0},
+			"structureBonus": {
+				"LeftArm": 16,
+			"":0},
+		"":0},
+	"":0},
+	"ENF-AC10": {
+		"name": "Improved Cooling AC/10",
+		"description": "The Improved Cooling Jacket reduces the heat generated by the weapon it is applied to",
+		"color": "(R=0.443000,G=0.126000,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "AC/10",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC10",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ENF-AC20": {
+		"name": "Improved Cooling AC/20",
+		"description": "The Improved Cooling Jacket reduces the heat generated by the weapon it is applied to",
+		"color": "(R=0.443000,G=0.126000,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "AC/20",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC20",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ENF-UAC5": {
+		"name": "Improved Cooling UAC/5",
+		"description": "The Improved Cooling Jacket reduces the heat generated by the weapon it is applied to",
+		"color": "(R=0.443000,G=0.126000,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "UAC/5",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra.AC5",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"NSR-DIFFICULTTOMAINTAIN": {
+		"name": "Difficult To Maintain",
+		"description": "The Nightstar is a mythical LosTech 'Mech no one has seen in centuries; repairs need extra care and attention",
+		"color": "(R=1.000000,G=0.000000,B=0.400000,A=1)",
+		"properties": {
+			"structureRepairCostMulti": 1.1,
+			"structureRepairDaysMulti": 1.1,
+			"armorRepairCostMulti": 1.1,
+			"armorRepairDaysMulti": 1.1,
+		"":0},
+	"":0},
+	"NSR-MELEE": {
+		"name": "Stick Arms",
+		"description": "The Nightstar has limited melee capabilities",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 0.7,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"RVN-SENSOR": {
+		"name": "Improved Sensors",
+		"description": "This 'Mech has improved sensor performance",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+		"":0},
+	"":0},
+	"UM-ASSAULT": {
+		"name": "UrbanMech Armor",
+		"description": "Do not underestimate the smallest Assault 'Mech disguised as a trash can",
+		"color": "(R=1.000000,G=0.000000,B=0.000000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 20,
+				"RightTorso": 14,
+				"LeftTorso": 14,
+				"RightArm": 14,
+				"LeftArm": 14,
+				"RightLeg": 14,
+				"LeftLeg": 14,
+			"":0},
+		"":0},
+	"":0},
+
+	"ANH-HERO": {
+		"name": "Annihilator Hero Endurance",
+		"description": "The Annihilator Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 16,
+				"RightTorso": 12,
+				"LeftTorso": 12,
+				"RightArm": 2,
+				"LeftArm": 2,
+				"RightLeg": 7,
+				"LeftLeg": 7,
+			"":0},
+		"":0},
+	"":0},
+	"ANH-MB": {
+		"name": "Mean Baby",
+		"description": "Unique set of quirks for the Annihilator Mean Baby Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"speedMulti": 1.3,
+					"":0},
+					{
+						"weaponGroupName": "MRM",
+						"tags": [
+							"Weapon.Missile.MRM",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ARC-HERO": {
+		"name": "Archer Hero Endurance",
+		"description": "The Archer Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 22,
+				"RightTorso": 15,
+				"LeftTorso": 15,
+				"RightArm": 10,
+				"LeftArm": 10,
+				"RightLeg": 7,
+				"LeftLeg": 7,
+			"":0},
+		"":0},
+	"":0},
+	"ARC-T": {
+		"name": "Tempest",
+		"description": "Unique set of quirks for the Archer Tempest Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"lockonTimeMulti": 0.8,
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Medium Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Standard.Medium",
+						[]],
+						"cooldownMulti": 0.95,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ARC-AGC": {
+		"name": "Agincourt",
+		"description": "Unique set of quirks for the Archer Agincourt Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "SRM Missile",
+						"tags": [
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM",
+						[]],
+						"heatMulti": 0.8,
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ASN-HERO": {
+		"name": "Assassin Hero Endurance",
+		"description": "The Assassin Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 9,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 4,
+				"LeftArm": 4,
+				"RightLeg": 8,
+				"LeftLeg": 8,
+			"":0},
+		"":0},
+	"":0},
+	"ASN-DD": {
+		"name": "DarkDeath",
+		"description": "Unique set of quirks for the Assassin DarkDeath Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "AC/2",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC2",
+							"Weapon.Ballistic.AutoCannon.Standard.AC2.Burst",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ASN-W": {
+		"name": "Wayz",
+		"description": "Unique set of quirks for the Assassin Wayz Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetXyAccelMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+			"jumpJetFuelRegenTimeMulti": 0.8,
+			"torsoTwistAngleMulti": 1.2,
+			"torsoTwistRateMulti": 1.2,
+			"topSpeedMulti": 1.15,
+			"topSpeedReverseMulti": 1.15,
+			"turnSpeedMulti": 1.2,
+			"accelerationMulti": 1.2,
+			"decelerationMulti": 1.2,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser",
+						[]],
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"AS7-HERO": {
+		"name": "Atlas Hero Endurance",
+		"description": "The Atlas Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 36,
+				"RightTorso": 30,
+				"LeftTorso": 30,
+				"RightArm": 10,
+				"LeftArm": 10,
+				"RightLeg": 21,
+				"LeftLeg": 21,
+			"":0},
+		"":0},
+	"":0},
+	"AS7-BH": {
+		"name": "The Boar's Head",
+		"description": "Unique set of quirks for the Atlas The Boar's Head Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"AS7-D-Y": {
+		"name": "Yrrot",
+		"description": "MechCommander Yrrot likes Dakka",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.8,
+						"speedMulti": 1.25,
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"AS7-D-Y+SLDF": {
+		"name": "Yrrot, Star League Relic",
+		"description": "MechCommander Yrrot likes Dakka\n\nThe Star League Defense Force used the best tech of their time",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.8,
+						"speedMulti": 1.25,
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+				"lockonTimeMulti": 0.9,
+			"":0},
+			"sensorRangeBonus": 100,
+		"":0},
+	"":0},
+	"AS7-KR": {
+		"name": "Kraken",
+		"description": "Unique set of quirks for the Atlas Kraken Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Gauss",
+						"tags": [
+							"Weapon.Ballistic.GaussRifle",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"AWS-HERO": {
+		"name": "Awesome Hero Armor",
+		"description": "The Awesome Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 27,
+				"RightTorso": 20,
+				"LeftTorso": 20,
+				"RightArm": 15,
+				"LeftArm": 15,
+			"":0},
+		"":0},
+	"":0},
+	"AWS-PB": {
+		"name": "Pretty Baby",
+		"description": "Unique set of quirks for the Awesome Pretty Baby Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.8,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser",
+						[]],
+						"durationMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+			"topSpeedMulti": 1.1,
+		"":0},
+	"":0},
+	"BNC-HERO": {
+		"name": "Banshee Hero Armor",
+		"description": "The Banshee Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 25,
+				"RightTorso": 16,
+				"LeftTorso": 16,
+				"RightArm": 10,
+				"LeftArm": 10,
+			"":0},
+		"":0},
+	"":0},
+	"BNC-LM": {
+		"name": "La Malinche",
+		"description": "Unique set of quirks for the Banshee La Malinche Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "AC/10",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC10",
+							"Weapon.Ballistic.AutoCannon.Standard.AC10.Burst",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+						"cooldownMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "LP Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Pulse.Large",
+						[]],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BNC-SR": {
+		"name": "Siren",
+		"description": "Unique set of quirks for the Banshee Siren Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.95,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"heatMulti": 0.95,
+						"speedMulti": 1.2,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BLR-HERO": {
+		"name": "Battlemaster Hero Armor",
+		"description": "The Battlemaster Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"RightArm": 14,
+				"LeftArm": 14,
+			"":0},
+		"":0},
+	"":0},
+	"BLR-1GHE": {
+		"name": "Hellslinger",
+		"description": "Unique set of quirks for the Battlemaster Hellslinger Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BJ-HERO": {
+		"name": "Blackjack Hero Armor",
+		"description": "The Blackjack Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 17,
+				"RightTorso": 14,
+				"LeftTorso": 14,
+				"RightArm": 10,
+				"LeftArm": 10,
+				"RightLeg": 10,
+				"LeftLeg": 10,
+			"":0},
+		"":0},
+	"":0},
+	"BJ-A": {
+		"name": "The Arrow",
+		"description": "Unique set of quirks for the Blackjack The Arrow Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.95,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.3,
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BL-HERO": {
+		"name": "Black Knight Hero Armor",
+		"description": "The Black Knight Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 17,
+				"RightTorso": 12,
+				"LeftTorso": 12,
+				"RightArm": 9,
+				"LeftArm": 9,
+				"RightLeg": 12,
+				"LeftLeg": 12,
+			"":0},
+		"":0},
+	"":0},
+	"BL-P-KNT": {
+		"name": "Partisan",
+		"description": "Unique set of quirks for the Black Knight Partisan Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BL-P-KNT2": {
+		"name": "Partisan 2",
+		"description": "Unique set of quirks for the Black Knight Partisan 2 Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BL-P-KNT2+Melee": {
+		"name": "Partisan 2, Melee Spec",
+		"description": "Unique set of quirks for the Black Knight Partisan 2 Hero 'Mech\n\nThis 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BL-G-KNT": {
+		"name": "Guerilla",
+		"description": "Unique set of quirks for the Black Knight Guerilla Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.95,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CTF-HERO": {
+		"name": "Cataphract Hero Armor",
+		"description": "The Cataphract Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 22,
+				"RightTorso": 25,
+				"LeftTorso": 15,
+				"RightArm": 11,
+				"LeftArm": 11,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+		"":0},
+	"":0},
+	"CTF-IM": {
+		"name": "Ilya Muromets",
+		"description": "Unique set of quirks for the Cataphract Ilya Muromets Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.85,
+						"optimalRangeMulti": 1.05,
+						"maxRangeMulti": 1.05,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.15,
+						"maxRangeMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CPLT-HERO": {
+		"name": "Catapult Hero Structure",
+		"description": "The Catapult Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 6,
+				"LeftTorso": 6,
+				"RightArm": 7,
+				"LeftArm": 7,
+			"":0},
+		"":0},
+	"":0},
+	"CPLT-J": {
+		"name": "Jester",
+		"description": "Unique set of quirks for the Catapult Jester Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "AMS",
+						"tags": [
+							"Weapon.AMS",
+						[]],
+						"missilesDestroyedMulti": 1.1,
+						"rofMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CPLT-BB": {
+		"name": "ButterBee",
+		"description": "Unique set of quirks for the Catapult ButterBee Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"heatMulti": 0.95,
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CN9-HERO": {
+		"name": "Centurion Hero Endurance",
+		"description": "The Centurion Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 22,
+				"RightTorso": 18,
+				"LeftTorso": 18,
+				"RightArm": 24,
+				"RightLeg": 18,
+				"LeftLeg": 18,
+			"":0},
+			"structureBonus": {
+				"RightArm": 16,
+			"":0},
+		"":0},
+	"":0},
+	"CN9-YLW": {
+		"name": "Yen-Lo-Wang",
+		"description": "Unique set of quirks for the Centurion Yen-Lo-Wang Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.85,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "AC/20",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC20",
+							"Weapon.Ballistic.AutoCannon.Standard.AC20.Burst",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CN9-YLW2+Melee": {
+		"name": "Yen-Lo-Wang 2, Melee Spec",
+		"description": "Unique set of quirks for the Centurion Yen-Lo-Wang 2 Hero 'Mech\n\nThis 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.85,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "AC/20",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC20",
+							"Weapon.Ballistic.AutoCannon.Standard.AC20.Burst",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CHP-HERO": {
+		"name": "Champion Hero Armor",
+		"description": "The Champion Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 12,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 16,
+				"LeftArm": 16,
+				"RightLeg": 10,
+				"LeftLeg": 10,
+			"":0},
+		"":0},
+	"":0},
+	"CHP-INV": {
+		"name": "Invictus",
+		"description": "Unique set of quirks for the Champion Invictus Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CDA-HERO": {
+		"name": "Cicada Hero Endurance",
+		"description": "The Cicada Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 9,
+				"RightTorso": 9,
+				"LeftTorso": 9,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 12,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 10,
+				"LeftLeg": 10,
+			"":0},
+		"":0},
+	"":0},
+	"CDA-X5": {
+		"name": "The X-5",
+		"description": "Unique set of quirks for the Cicada The X-5 Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CGR-HERO": {
+		"name": "Charger Hero Structure",
+		"description": "The Charger Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 25,
+				"RightTorso": 20,
+				"LeftTorso": 20,
+				"RightArm": 15,
+				"LeftArm": 15,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+		"":0},
+	"":0},
+	"CGR-N7": {
+		"name": "Number Seven",
+		"description": "Unique set of quirks for the Charger Number Seven Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.95,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"COM-HERO": {
+		"name": "Commando Hero Endurance",
+		"description": "The Commando Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"RightArm": 24,
+				"LeftArm": 24,
+				"RightLeg": 12,
+				"LeftLeg": 12,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 12,
+				"LeftTorso": 12,
+			"":0},
+		"":0},
+	"":0},
+	"COM-TDK": {
+		"name": "The Death's Knell",
+		"description": "Unique set of quirks for the Commando The Death's Knell Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"COR-HERO": {
+		"name": "Corsair Hero Armor",
+		"description": "The Corsair Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 25,
+				"RightTorso": 25,
+				"LeftTorso": 25,
+				"RightArm": 10,
+				"LeftArm": 10,
+			"":0},
+		"":0},
+	"":0},
+	"COR-RA": {
+		"name": "Ravager",
+		"description": "Unique set of quirks for the Corsair Ravager Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"COR-PVT": {
+		"name": "Privateer",
+		"description": "Unique set of quirks for the Corsair Privateer Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CRB-HERO": {
+		"name": "Crab Hero Armor",
+		"description": "The Crab Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 6,
+				"LeftTorso": 6,
+				"RightArm": 4,
+				"LeftArm": 4,
+				"RightLeg": 12,
+				"LeftLeg": 12,
+			"":0},
+		"":0},
+	"":0},
+	"CRB-FL": {
+		"name": "Florentine",
+		"description": "Unique set of quirks for the Crab Florentine Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CP-HERO": {
+		"name": "Cyclops Hero Endurance",
+		"description": "The Cyclops Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 6,
+				"LeftTorso": 6,
+				"RightArm": 4,
+				"LeftArm": 4,
+				"RightLeg": 4,
+				"LeftLeg": 4,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 6,
+				"LeftTorso": 6,
+			"":0},
+		"":0},
+	"":0},
+	"CP-S": {
+		"name": "Sleipnir",
+		"description": "Unique set of quirks for the Cyclops Sleipnir Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Gauss",
+						"tags": [
+							"Weapon.Ballistic.GaussRifle",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+			"sensorRangeBonus": 150,
+		"":0},
+	"":0},
+	"DV-HERO": {
+		"name": "Dervish Hero Endurance",
+		"description": "The Dervish Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"RightLeg": 10,
+				"LeftLeg": 10,
+			"":0},
+		"":0},
+	"":0},
+	"DV-FR": {
+		"name": "Frenzy",
+		"description": "Unique set of quirks for the Dervish Frenzy Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"lockonTimeMulti": 0.9,
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+			"sensorRangeBonus": 150,
+		"":0},
+	"":0},
+	"DRG-HERO": {
+		"name": "Dragon Hero Endurance",
+		"description": "The Dragon Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 20,
+				"RightTorso": 20,
+				"LeftTorso": 20,
+				"RightArm": 20,
+				"LeftArm": 20,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 15,
+				"RightTorso": 18,
+				"LeftTorso": 18,
+			"":0},
+		"":0},
+	"":0},
+	"DRG-FANG": {
+		"name": "Fang",
+		"description": "Unique set of quirks for the Dragon Fang Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"speedMulti": 1.3,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy-Laser",
+						[]],
+						"durationMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+			"topSpeedMulti": 1.1,
+		"":0},
+	"":0},
+	"DRG-FLAME": {
+		"name": "Flame",
+		"description": "Unique set of quirks for the Dragon Flame Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"speedMulti": 1.3,
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+			"topSpeedMulti": 1.1,
+		"":0},
+	"":0},
+	"DRG-SDW": {
+		"name": "Sidewinder",
+		"description": "Unique set of quirks for the Dragon Sidewinder Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "LBX and AC/20",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC20",
+							"Weapon.Ballistic.AutoCannon.Standard.AC20.Burst",
+							"Weapon.Ballistic.AutoCannon.LBX",
+						[]],
+						"speedMulti": 1.3,
+						"spreadRadiusMulti": 0.9,
+						"cooldownMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "SRM Missile",
+						"tags": [
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM",
+						[]],
+						"speedMulti": 1.3,
+						"cooldownMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+			"topSpeedMulti": 1.1,
+		"":0},
+	"":0},
+	"ENF-HERO": {
+		"name": "Enforcer Hero Armor",
+		"description": "The Enforcer Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 14,
+				"RightTorso": 12,
+				"LeftTorso": 12,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 14,
+				"LeftLeg": 14,
+			"":0},
+		"":0},
+	"":0},
+	"ENF-GH": {
+		"name": "Ghillie",
+		"description": "Unique set of quirks for the Enforcer Ghillie Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+						"optimalRangeMulti": 1.05,
+						"maxRangeMulti": 1.05,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FS9-HERO": {
+		"name": "Firestarter Hero Structure",
+		"description": "The Firestarter Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 11,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 16,
+				"LeftLeg": 16,
+			"":0},
+		"":0},
+	"":0},
+	"FS9-E": {
+		"name": "Ember",
+		"description": "Unique set of quirks for the Firestarter Ember Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.25,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser",
+						[]],
+						"durationMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer",
+						[]],
+						"optimalRangeMulti": 1.15,
+						"maxRangeMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FS9-FS": {
+		"name": "FireStorm",
+		"description": "Unique set of quirks for the Firestarter FireStorm Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FLE-HERO": {
+		"name": "Flea Hero Armor",
+		"description": "The Flea Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 8,
+				"LeftArm": 8,
+				"RightLeg": 8,
+				"LeftLeg": 8,
+			"":0},
+		"":0},
+	"":0},
+	"FLE-R5K": {
+		"name": "Romeo 5000",
+		"description": "Unique set of quirks for the Flea Romeo 5000 Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.2,
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"GHR-HERO": {
+		"name": "Grasshopper Hero Armor",
+		"description": "The Grasshopper Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 15,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 11,
+				"LeftArm": 11,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+		"":0},
+	"":0},
+	"GHR-MJ": {
+		"name": "Mjölnir",
+		"description": "Unique set of quirks for the Grasshopper Mjölnir Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"GRF-HERO": {
+		"name": "Griffin Hero Endurance",
+		"description": "The Griffin Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"RightArm": 10,
+				"LeftArm": 10,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 18,
+				"RightTorso": 13,
+				"LeftTorso": 13,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 13,
+				"LeftLeg": 13,
+			"":0},
+		"":0},
+	"":0},
+	"GRF-1E": {
+		"name": "Sparky",
+		"description": "Unique set of quirks for the Griffin Sparky Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.95,
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"GRF-AR": {
+		"name": "Ares",
+		"description": "Unique set of quirks for the Griffin Ares Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HTM-HERO": {
+		"name": "Hatamoto-Chi Hero Armor",
+		"description": "The Hatamoto-Chi Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 25,
+				"RightTorso": 20,
+				"LeftTorso": 20,
+				"RightArm": 15,
+				"LeftArm": 15,
+				"RightLeg": 10,
+				"LeftLeg": 10,
+			"":0},
+		"":0},
+	"":0},
+	"HTM-ON": {
+		"name": "Onimaru",
+		"description": "Unique set of quirks for the Hatamoto-Chi Onimaru Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HTM-ON+Melee": {
+		"name": "Onimaru, Melee Spec",
+		"description": "Unique set of quirks for the Hatamoto-Chi Onimaru Hero 'Mech\n\nThis 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HTM-SG": {
+		"name": "Shugo",
+		"description": "Unique set of quirks for the Hatamoto-Chi Shugo Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.95,
+						"heatMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "LBX",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX",
+						[]],
+						"spreadRadiusMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HCT-HERO": {
+		"name": "Hatchetman Hero Endurance",
+		"description": "The Hatchetman Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 10,
+				"LeftArm": 4,
+				"RightLeg": 8,
+				"LeftLeg": 8,
+			"":0},
+		"":0},
+	"":0},
+	"HCT-MA": {
+		"name": "Man-at-Arms",
+		"description": "Unique set of quirks for the Hatchetman Man-at-Arms Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HGN-HERO": {
+		"name": "Highlander Hero Endurance",
+		"description": "The Highlander Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 29,
+				"RightTorso": 18,
+				"LeftTorso": 18,
+				"RightArm": 19,
+				"LeftArm": 19,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 10,
+				"LeftArm": 10,
+			"":0},
+		"":0},
+	"":0},
+	"HGN-RS": {
+		"name": "Redshank",
+		"description": "Unique set of quirks for the Highlander Redshank Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HGN-RS+Melee": {
+		"name": "Redshank, Melee Spec",
+		"description": "Unique set of quirks for the Highlander Redshank Hero 'Mech\n\nThis 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HGN-HM": {
+		"name": "Heavy Metal",
+		"description": "Unique set of quirks for the Highlander Heavy Metal Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HGN-LV": {
+		"name": "Laser Vomit",
+		"description": "Unique set of quirks for the Highlander Laser Vomit Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.8,
+						"speedMulti": 1.3,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HBK-HERO": {
+		"name": "Hunchback Hero Endurance",
+		"description": "The Hunchback Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 16,
+				"RightTorso": 28,
+				"LeftTorso": 16,
+			"":0},
+			"structureBonus": {
+				"RightTorso": 12,
+				"LeftTorso": 6,
+				"RightArm": 4,
+				"LeftArm": 4,
+			"":0},
+		"":0},
+	"":0},
+	"HBK-GI": {
+		"name": "Grid Iron",
+		"description": "Unique set of quirks for the Hunchback Grid Iron Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Gauss",
+						"tags": [
+							"Weapon.Ballistic.GaussRifle",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.1,
+						"cooldownMulti": 0.85,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"JM6-HERO": {
+		"name": "Jagermech Hero Endurance",
+		"description": "The Jagermech Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"RightArm": 14,
+				"LeftArm": 14,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 11,
+				"RightTorso": 15,
+				"LeftTorso": 15,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+		"":0},
+	"":0},
+	"JM6-FB": {
+		"name": "FireBrand",
+		"description": "Unique set of quirks for the Jagermech FireBrand Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"speedMulti": 1.2,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"JVN-HERO": {
+		"name": "Javelin Hero Structure",
+		"description": "The Javelin Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 10,
+				"LeftArm": 10,
+				"RightLeg": 5,
+				"LeftLeg": 5,
+			"":0},
+		"":0},
+	"":0},
+	"JVN-HT": {
+		"name": "Hi There!",
+		"description": "Unique set of quirks for the Javelin Hi There! Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"JVN-WU": {
+		"name": "What's Up?",
+		"description": "Unique set of quirks for the Javelin What's Up? Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"JR7-HERO": {
+		"name": "Jenner Hero Endurance",
+		"description": "The Jenner Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 11,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightLeg": 8,
+				"LeftLeg": 8,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 11,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 16,
+				"LeftLeg": 16,
+			"":0},
+		"":0},
+	"":0},
+	"JR7-O": {
+		"name": "Oxide",
+		"description": "Unique set of quirks for the Jenner Oxide Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.9,
+						"speedMulti": 1.2,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"KGC-HERO": {
+		"name": "King Crab Hero Armor",
+		"description": "The King Crab Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 25,
+				"RightTorso": 17,
+				"LeftTorso": 17,
+				"RightArm": 10,
+				"LeftArm": 10,
+			"":0},
+		"":0},
+	"":0},
+	"KGC-KJ": {
+		"name": "Kaiju",
+		"description": "Unique set of quirks for the King Crab Kaiju Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"heatMulti": 0.8,
+						"speedMulti": 1.3,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"KGC-J": {
+		"name": "Johnny The Crab",
+		"description": "Unique set of quirks for the King Crab Johnny The Crab Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.25,
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"KGC-CAR": {
+		"name": "Carapace",
+		"description": "Unique set of quirks for the King Crab Carapace Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ultra AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra",
+						[]],
+						"speedMulti": 1.3,
+						"cooldownMulti": 0.8,
+						"spreadRadiusMulti": 0.8,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"KTO-HERO": {
+		"name": "Kintaro Hero Armor",
+		"description": "The Kintaro Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 15,
+				"RightTorso": 13,
+				"LeftTorso": 13,
+				"RightArm": 10,
+				"LeftArm": 10,
+				"RightLeg": 7,
+				"LeftLeg": 7,
+			"":0},
+		"":0},
+	"":0},
+	"KTO-GB": {
+		"name": "Golden Boy",
+		"description": "Unique set of quirks for the Kintaro Golden Boy Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "MP Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Pulse",
+						[]],
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.95,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"LCT-HERO": {
+		"name": "Locust Hero Armor",
+		"description": "The Locust Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 5,
+				"RightTorso": 5,
+				"LeftTorso": 5,
+				"RightLeg": 9,
+				"LeftLeg": 9,
+			"":0},
+		"":0},
+	"":0},
+	"LCT-PB": {
+		"name": "Pirate's Bane",
+		"description": "Unique set of quirks for the Locust Pirate's Bane Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"MAD-HERO": {
+		"name": "Marauder Hero Structure",
+		"description": "The Marauder Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 23,
+				"RightTorso": 16,
+				"LeftTorso": 16,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 16,
+				"LeftLeg": 16,
+			"":0},
+		"":0},
+	"":0},
+	"MAD2-HERO": {
+		"name": "Marauder II Hero Armor",
+		"description": "The Marauder II Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 26,
+				"RightTorso": 19,
+				"LeftTorso": 19,
+				"RightArm": 15,
+				"LeftArm": 15,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+		"":0},
+	"":0},
+	"MAD-BH2": {
+		"name": "Bounty Hunter II",
+		"description": "Unique set of quirks for the Marauder Bounty Hunter II Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "ER PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon.ERPPC",
+						[]],
+						"heatMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "M Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Standard.Medium",
+							"Weapon.Energy.Laser.ER.Medium",
+						[]],
+						"optimalRangeMulti": 1.05,
+						"maxRangeMulti": 1.05,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"MAD-AL": {
+		"name": "Alpha",
+		"description": "Unique set of quirks for the Marauder II Alpha Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ultra AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"MAL-HERO": {
+		"name": "Mauler Hero Structure",
+		"description": "The Mauler Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 17,
+				"RightTorso": 14,
+				"LeftTorso": 14,
+			"":0},
+		"":0},
+	"":0},
+	"MAL-KO": {
+		"name": "KnockOut",
+		"description": "Unique set of quirks for the Mauler KnockOut Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "LBX",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX",
+						[]],
+						"spreadRadiusMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"NSR-HERO": {
+		"name": "Nightstar Hero Armor",
+		"description": "The Nightstar Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 23,
+				"RightTorso": 16,
+				"LeftTorso": 16,
+				"RightArm": 8,
+				"LeftArm": 8,
+			"":0},
+		"":0},
+	"":0},
+	"NSR-WP": {
+		"name": "Wolf Phoenix",
+		"description": "Unique set of quirks for the Nightstar Wolf Phoenix Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"NSR-WD": {
+		"name": "White Death",
+		"description": "Unique set of quirks for the Nightstar White Death Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"speedMulti": 1.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ON1-HERO": {
+		"name": "Orion Hero Armor",
+		"description": "The Orion Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 23,
+				"RightTorso": 16,
+				"LeftTorso": 16,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 16,
+				"LeftLeg": 16,
+			"":0},
+		"":0},
+	"":0},
+	"ON1-P": {
+		"name": "Protector",
+		"description": "Unique set of quirks for the Orion Protector Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Gauss",
+						"tags": [
+							"Weapon.Ballistic.GaussRifle",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ON1-YAJ": {
+		"name": "Yad al-Jauza",
+		"description": "Unique set of quirks for the Orion Yad al-Jauza Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser",
+						[]],
+						"heatMulti": 0.9,
+						"durationMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"PNT-HERO": {
+		"name": "Panther Hero Armor",
+		"description": "The Panther Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 12,
+				"RightTorso": 12,
+				"LeftTorso": 12,
+				"RightArm": 15,
+				"LeftArm": 15,
+				"RightLeg": 12,
+				"LeftLeg": 12,
+			"":0},
+		"":0},
+	"":0},
+	"PNT-KK": {
+		"name": "Katana Kat",
+		"description": "Unique set of quirks for the Panther Katana Kat Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon",
+						[]],
+						"speedMulti": 1.4,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"PXH-HERO": {
+		"name": "Phoenix Hawk Hero Endurance",
+		"description": "The Phoenix Hawk Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"RightArm": 21,
+				"LeftArm": 21,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 9,
+				"LeftTorso": 9,
+				"RightArm": 7,
+				"LeftArm": 7,
+				"RightLeg": 9,
+				"LeftLeg": 9,
+			"":0},
+		"":0},
+	"":0},
+	"PXH-KK": {
+		"name": "Kuroi Kiri",
+		"description": "Unique set of quirks for the Phoenix Hawk Kuroi Kiri Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "LB-X Autocannon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX",
+						[]],
+						"cooldownMulti": 0.85,
+						"spreadRadiusMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"PXH-R": {
+		"name": "Roc",
+		"description": "Unique set of quirks for the Phoenix Hawk Roc Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"speedMulti": 1.2,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"optimalRangeMulti": 1.05,
+						"maxRangeMulti": 1.05,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.85,
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"PXH-KB": {
+		"name": "Kobold",
+		"description": "Unique set of quirks for the Phoenix Hawk Kobold Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.9,
+						"durationMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.85,
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"QKD-HERO": {
+		"name": "Quickdraw Hero Armor",
+		"description": "The Quickdraw Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 15,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 11,
+				"LeftArm": 11,
+				"RightLeg": 10,
+				"LeftLeg": 10,
+			"":0},
+		"":0},
+	"":0},
+	"QKD-SC": {
+		"name": "Scrapper",
+		"description": "Unique set of quirks for the Quickdraw Scrapper Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"QKD-SC+Melee": {
+		"name": "Scrapper, Melee Spec",
+		"description": "Unique set of quirks for the Quickdraw Scrapper Hero 'Mech\n\nThis 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"QKD-IV4": {
+		"name": "IV-Four",
+		"description": "Unique set of quirks for the Quickdraw IV-Four Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.8,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"RVN-HERO": {
+		"name": "Raven Hero Structure",
+		"description": "The Raven Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 12,
+				"LeftTorso": 12,
+				"RightArm": 16,
+				"LeftArm": 16,
+				"RightLeg": 12,
+				"LeftLeg": 12,
+			"":0},
+		"":0},
+	"":0},
+	"RVN-H": {
+		"name": "Huginn",
+		"description": "Unique set of quirks for the Raven Huginn Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.25,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.9,
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"RVN-M": {
+		"name": "Muninn",
+		"description": "Unique set of quirks for the Raven Muninn Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.25,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.85,
+						"durationMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"RFL-HERO": {
+		"name": "Rifleman Hero Endurance",
+		"description": "The Rifleman Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"RightArm": 10,
+				"LeftArm": 10,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 5,
+				"LeftArm": 5,
+				"RightLeg": 7,
+				"LeftLeg": 7,
+			"":0},
+		"":0},
+	"":0},
+	"RFL-DB": {
+		"name": "Dao Breaker",
+		"description": "Unique set of quirks for the Rifleman Dao Breaker Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.95,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "AC/5",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC5",
+						[]],
+						"cooldownMulti": 0.95,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"RFL-DNA": {
+		"name": "Diana",
+		"description": "Unique set of quirks for the Rifleman Diana Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Gauss",
+						"tags": [
+							"Weapon.Ballistic.GaussRifle",
+						[]],
+						"cooldownMulti": 0.7,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"RFL-LK": {
+		"name": "Legend Killer",
+		"description": "Unique set of quirks for the Rifleman Legend Killer Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "LB10-X",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX.LBX10",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser",
+						[]],
+						"durationMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"SHD-HERO": {
+		"name": "Shadowhawk Hero Endurance",
+		"description": "The Shadowhawk Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"LeftTorso": 12,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 18,
+				"RightTorso": 14,
+				"LeftTorso": 14,
+				"RightArm": 12,
+				"LeftArm": 12,
+				"RightLeg": 18,
+				"LeftLeg": 18,
+			"":0},
+		"":0},
+	"":0},
+	"SHD-GD": {
+		"name": "The Grey Death",
+		"description": "Unique set of quirks for the Shadowhawk The Grey Death Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"SHD-2HP": {
+		"name": "Phoenix",
+		"description": "Unique set of quirks for the Shadowhawk Phoenix Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"SDR-HERO": {
+		"name": "Spider Hero Armor",
+		"description": "The Spider Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 10,
+				"LeftArm": 10,
+				"RightLeg": 10,
+				"LeftLeg": 10,
+			"":0},
+		"":0},
+	"":0},
+	"SDR-A": {
+		"name": "Anansi",
+		"description": "Unique set of quirks for the Spider Anansi Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.5,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"STK-HERO": {
+		"name": "Stalker Hero Armor",
+		"description": "The Stalker Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 6,
+				"RightTorso": 18,
+				"LeftTorso": 18,
+				"RightArm": 10,
+				"LeftArm": 10,
+			"":0},
+		"":0},
+	"":0},
+	"STK-M": {
+		"name": "Misery",
+		"description": "Unique set of quirks for the Stalker Misery Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.86,
+						"speedMulti": 1.3,
+						"optimalRangeMulti": 1.15,
+						"maxRangeMulti": 1.15,
+					"":0},
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser",
+						[]],
+						"durationMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"TDR-HERO": {
+		"name": "Thunderbolt Hero Structure",
+		"description": "The Stalker Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 16,
+				"RightTorso": 15,
+				"LeftTorso": 15,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+		"":0},
+	"":0},
+	"TDR-5S-T": {
+		"name": "Top Dog",
+		"description": "Unique quirks for the Thunderbolt Top Dog Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"TBT-HERO": {
+		"name": "Trebuchet Hero Endurance",
+		"description": "The Trebuchet Hero comes equipped with higher density armor and structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 10,
+				"RightArm": 12,
+				"LeftArm": 12,
+			"":0},
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 12,
+				"LeftTorso": 12,
+				"RightArm": 8,
+				"LeftArm": 8,
+				"RightLeg": 12,
+				"LeftLeg": 12,
+			"":0},
+		"":0},
+	"":0},
+	"TBT-LG": {
+		"name": "Loup De Guerre",
+		"description": "Unique quirks for the Trebuchet Loup De Guerre Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"optimalRangeMulti": 1.05,
+						"maxRangeMulti": 1.05,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.3,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"UM-HERO": {
+		"name": "UrbanMech Hero Structure",
+		"description": "The UrbanMech Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 7,
+				"LeftTorso": 7,
+				"RightArm": 7,
+				"LeftArm": 7,
+				"RightLeg": 7,
+				"LeftLeg": 7,
+			"":0},
+		"":0},
+	"":0},
+	"UM-K9": {
+		"name": "K9",
+		"description": "Unique quirks for the UrbanMech K9 Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.2,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Ultra AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra",
+						[]],
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"UM-SC": {
+		"name": "Street Cleaner",
+		"description": "Unique quirks for the UrbanMech Street Cleaner Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.8,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"VND-HERO": {
+		"name": "Vindicator Hero Armor",
+		"description": "The Vindicator Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 17,
+				"RightTorso": 15,
+				"LeftTorso": 15,
+				"RightArm": 14,
+				"LeftArm": 14,
+				"RightLeg": 15,
+				"LeftLeg": 15,
+			"":0},
+		"":0},
+	"":0},
+	"VND-1SIB": {
+		"name": "St. Ives' Blues",
+		"description": "Unique quirks for the UrbanMech St. Ives' Blues Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.85,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Std and ER Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Standard",
+							"Weapon.Energy.Laser.ER",
+						[]],
+						"durationMulti": 0.7,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.3,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"VL-HERO": {
+		"name": "Vulcan Hero Structure",
+		"description": "The Vulcan Hero comes equipped with higher density structure",
+		"color": "(R=1,G=0,B=0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 6,
+				"LeftTorso": 6,
+				"RightArm": 5,
+				"LeftArm": 5,
+				"RightLeg": 8,
+				"LeftLeg": 8,
+			"":0},
+		"":0},
+	"":0},
+	"VL-BL": {
+		"name": "BloodLust",
+		"description": "Unique quirks for the Vulcan BloodLust Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+						[]],
+						"damageMulti": 1.15,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"VTR-HERO": {
+		"name": "Victor Hero Armor",
+		"description": "The Victor Hero comes with improved armor.",
+		"color": "(R=1,G=0,B=0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 23,
+				"RightTorso": 16,
+				"LeftTorso": 16,
+				"RightArm": 16,
+				"LeftArm": 16,
+				"RightLeg": 16,
+				"LeftLeg": 16,
+			"":0},
+		"":0},
+	"":0},
+	"VTR-DS": {
+		"name": "Dragon Slayer",
+		"description": "Unique quirks for the Victor Dragon Slayer Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"weapons": {
+				"ppcHeatMulti": 0.8,
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+					"":0},
+					{
+						"weaponGroupName": "Gauss Rifle",
+						"tags": [
+							"Weapon.Ballistic.GaussRifle",
+						[]],
+						"cooldownMulti": 0.95,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"VTR-BSK": {
+		"name": "Basilisk",
+		"description": "Unique quirks for the Victor Basilisk Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "LB-X",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX",
+						[]],
+						"cooldownMulti": 0.8,
+						"speedMulti": 1.3,
+						"spreadRadiusMulti": 0.75,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WHM-HERO": {
+		"name": "Warhammer Hero Structure",
+		"description": "The Warhammer Hero comes equipped with higher density structure",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 11,
+				"RightTorso": 7,
+				"LeftTorso": 7,
+				"RightArm": 5,
+				"LeftArm": 5,
+				"RightLeg": 7,
+				"LeftLeg": 7,
+			"":0},
+		"":0},
+	"":0},
+	"WHM-BW": {
+		"name": "Black Widow",
+		"description": "Natasha Kerensky's expert handling of the Warhammer is infused in the essence of the Black Widow.",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"ppcSpeedMulti": 1.1,
+				"groups": [
+					{
+						"weaponGroupName": "Standard AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "LBX",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX",
+						[]],
+						"spreadRadiusMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"heatMulti": 0.95,
+						"maxRangeMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WLF-HERO": {
+		"name": "Wolfhound Hero Armor",
+		"description": "The Wolfhound Hero comes with improved armor.",
+		"color": "(R=1,G=0,B=0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 11,
+				"RightTorso": 11,
+				"LeftTorso": 11,
+				"RightLeg": 8,
+				"LeftLeg": 8,
+			"":0},
+		"":0},
+	"":0},
+	"WLF-GR": {
+		"name": "Grinner",
+		"description": "Unique quirks for the Wolfhound Grinner Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WVR-HERO": {
+		"name": "Wolverine Hero Armor",
+		"description": "The Wolverine Hero comes with improved armor.",
+		"color": "(R=1,G=0,B=0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 15,
+				"RightTorso": 13,
+				"LeftTorso": 18,
+			"":0},
+		"":0},
+	"":0},
+	"WVR-7H": {
+		"name": "Wolverine II",
+		"description": "Unique set of quirks for the Wolverine II 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ultra AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra",
+						[]],
+						"heatMulti": 0.8,
+						"cooldownMulti": 0.8,
+						"speedMulti": 1.3,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"WVR-7H+SLDF": {
+		"name": "Wolverine II, Star League Relic",
+		"description": "Unique set of quirks for the Wolverine II 'Mech\n\nThe Star League Defense Force used the best tech of their time",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ultra AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra",
+						[]],
+						"heatMulti": 0.8,
+						"cooldownMulti": 0.8,
+						"speedMulti": 1.3,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+					"":0},
+				[]],
+				"lockonTimeMulti": 0.9,
+			"":0},
+			"sensorRangeBonus": 100,
+		"":0},
+	"":0},
+	"WVR-Q": {
+		"name": "Quarantine",
+		"description": "Unique set of quirks for the Wolverine Quarantine Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"heatMulti": 0.8,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.1,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ZEU-HERO": {
+		"name": "Zeus Hero Structure",
+		"description": "The Zeus Hero comes equipped with higher density structure",
+		"color": "(R=1,G=0,B=0,A=1)",
+		"properties": {
+			"structureBonus": {
+				"CenterTorso": 30,
+				"RightTorso": 20,
+				"LeftTorso": 20,
+				"RightArm": 15,
+				"LeftArm": 15,
+				"RightLeg": 20,
+				"LeftLeg": 20,
+			"":0},
+		"":0},
+	"":0},
+	"ZEU-SK": {
+		"name": "Skokomish",
+		"description": "Unique set of quirks for the Zeus Skokomish Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy",
+						[]],
+						"cooldownMulti": 0.85,
+					"":0},
+					{
+						"weaponGroupName": "Std and ER Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Standard",
+							"Weapon.Energy.Laser.ER",
+						[]],
+						"durationMulti": 0.9,
+					"":0},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic",
+						[]],
+						"cooldownMulti": 0.85,
+						"speedMulti": 1.1,
+					"":0},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile",
+						[]],
+						"speedMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+
+	"ANNIHILATOR": {
+	"":0},
+	"ARCHER": {
+	"":0},
+	"ASSASSIN": {
+	"":0},
+	"ATLAS": {
+	"":0},
+	"AWESOME": {
+	"":0},
+	"BANSHEE": {
+	"":0},
+	"BATTLEMASTER": {
+	"":0},
+	"BLACKKNIGHT": {
+		"name": "Laser Lance",
+		"description": "This 'Mech greatly extends Small Laser range to nearly match Medium Lasers",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Small Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Chemical.Small",
+							"Weapon.Energy.Laser.Pulse.Small",
+							"Weapon.Energy.Laser.Standard.Small",
+						[]],
+						"optimalRangeMulti": 1.8,
+						"maxRangeMulti": 1.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"BLACKJACK": {
+	"":0},
+	"CATAPHRACT": {
+	"":0},
+	"CATAPULT": {
+	"":0},
+	"CENTURION": {
+	"":0},
+	"CHAMPION": {
+	"":0},
+	"CHARGER": {
+	"":0},
+	"CICADA": {
+	"":0},
+	"COMMANDO": {
+		"name": "Striker",
+		"description": "This 'Mech is known for hit and run tactics and has a bonus to agility",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"accelerationMulti": 1.07,
+			"decelerationMulti": 1.07,
+		"":0},
+	"":0},
+	"CORSAIR": {
+	"":0},
+	"CRAB": {
+		"name": "Industrial Clamps",
+		"description": "This 'Mech has claws that cut and crimp",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.2,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"CYCLOPS": {
+	"":0},
+	"DERVISH": {
+		"name": "Whirlwind System",
+		"description": "This 'Mech has enhanced range for Streak SRMs and slightly more speed than expected",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Streak SRM",
+						"tags": [
+							"Weapon.Missile.SRM.Streak",
+						[]],
+						"optimalRangeMulti": 1.5,
+						"maxRangeMulti": 1.5,
+					"":0},
+				[]],
+			"":0},
+			"topSpeedMulti": 1.0667,
+			"topSpeedReverseMulti": 1.0667,
+		"":0},
+	"":0},
+	"DRAGON": {
+		"name": "Firebreather",
+		"description": "This 'Mech has enhanced range for all Flamer type weapons",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer",
+						[]],
+						"optimalRangeMulti": 1.15,
+						"maxRangeMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"ENFORCER": {
+	"":0},
+	"FIRESTARTER": {
+		"name": "Matchbook",
+		"description": "This 'Mech has optimized components for all Flamer type weapons",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer",
+						[]],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.15,
+						"maxRangeMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"FLEA": {
+	"":0},
+	"GRASSHOPPER": {
+		"name": "Spring-Loaded",
+		"description": "This 'Mech has a range boost to Medium Lasers and strong initial Jump Jet thrust",
+		"color": "(R=0.031373,G=0.227451,B=1.000000,A=1)",
+		"properties": {
+			"jumpJetInitialZVelocityMulti": 3.0,
+			"jumpJetZAccelMulti": 0.5,
+			"jumpJetFuelBurnTimeMulti": 0.5,
+			"jumpJetFuelRegenTimeMulti": 0.5,
+			"jumpJetHeatMulti": 2.0,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Medium Laser",
+						"tags": [
+							"Weapon.Energy.Laser.Chemical.Medium",
+							"Weapon.Energy.Laser.Pulse.Medium",
+							"Weapon.Energy.Laser.Standard.Medium",
+						[]],
+						"optimalRangeMulti": 1.15,
+						"maxRangeMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"GRIFFIN": {
+	"":0},
+	"HATAMOTOCHI": {
+		"name": "Hatamoto Helmet",
+		"description": "This 'Mech has improved defenses around the cockpit",
+		"color": "(R=0.590000,G=0.030000,B=0.110000,A=1)",
+		"properties": {
+			"armorBonus": {
+				"Head": 6,
+			"":0},
+			"structureBonus": {
+				"Head": 6,
+			"":0},
+		"":0},
+	"":0},
+	"HATCHETMAN": {
+		"name": "Melee Specialization",
+		"description": "This 'Mech is designed specifically for melee combat",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"HIGHLANDER": {
+	"":0},
+	"HUNCHBACK": {
+	"":0},
+	"JAGERMECH": {
+		"name": "Burst Compensator",
+		"description": "This 'Mech has improved stability with burst-fire weapons",
+		"color": "(R=0.309804,G=0.219608,B=0.478431,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "BF Weapon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard.AC2.Burst",
+							"Weapon.Ballistic.AutoCannon.Standard.AC5.Burst",
+							"Weapon.Ballistic.AutoCannon.Standard.AC10.Burst",
+							"Weapon.Ballistic.AutoCannon.Standard.AC20.Burst",
+						[]],
+						"spreadRadiusMulti": 0.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"JAVELIN": {
+	"":0},
+	"JENNER": {
+	"":0},
+	"KINGCRAB": {
+	"":0},
+	"KINTARO": {
+		"name": "Stool Pigeon",
+		"description": "This 'Mech has improved capabilities with NARC missiles",
+		"color": "(R=0.133333,G=0.596078,B=0.113725,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "NARC",
+						"tags": [
+							"Weapon.Missile.NARC",
+						[]],
+						"cooldownMulti": 0.75,
+						"ammoMulti": 1.5,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"LOCUST": {
+		"name": "Plaguebearer",
+		"description": "This is a surprisingly efficient little 'Mech",
+		"color": "(R=0.006049,G=0.445201,B=0.445201,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon",
+						[]],
+						"heatMulti": 0.8,
+						"cooldownMulti": 0.8,
+					"":0},
+				[]],
+			"":0},
+		"":0},
+	"":0},
+	"MARAUDER": {
+	"":0},
+	"MARAUDERII": {
+	"":0},
+	"MAULER": {
+		"name": "Linesman",
+		"description": "This 'Mech gets up to a slightly higher top speed than expected for its engine and weight",
+		"color": "(R=0.000000,G=1.000000,B=0.282176,A=1)",
+		"properties": {
+			"topSpeedMulti": 1.1111,
+			"topSpeedReverseMulti": 1.1111,
+		"":0},
+	"":0},
+	"NIGHTSTAR": {
+	"":0},
+	"ORION": {
+	"":0},
+	"PANTHER": {
+	"":0},
+	"PHOENIXHAWK": {
+	"":0},
+	"QUICKDRAW": {
+	"":0},
+	"RAVEN": {
+	"":0},
+	"RIFLEMAN": {
+	"":0},
+	"SHADOWHAWK": {
+	"":0},
+	"SPIDER": {
+	"":0},
+	"STALKER": {
+	"":0},
+	"THUNDERBOLT": {
+	"":0},
+	"TREBUCHET": {
+	"":0},
+	"URBANMECH": {
+	"":0},
+	"VICTOR": {
+	"":0},
+	"VINDICATOR": {
+	"":0},
+	"VULCAN": {
+	"":0},
+	"WARHAMMER": {
+	"":0},
+	"WOLFHOUND": {
+	"":0},
+	"WOLVERINE": {
+	"":0},
+	"ZEUS": {
+		"name": "Bludgeon Fist (R)",
+		"description": "This 'Mech's right arm is specially designed to protect its weaponry while enhancing melee capability",
+		"color": "(R=1.000000,G=0.901961,B=0.000000,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee",
+						[]],
+						"mechParts": [
+							"RightArm",
+						[]],
+						"damageMulti": 1.15,
+					"":0},
+				[]],
+			"":0},
+			"armorBonus": {
+				"RightArm": 8,
+			"":0},
+		"":0},
+	"":0},
+"":0}

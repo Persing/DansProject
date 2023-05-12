@@ -1,0 +1,139 @@
+{
+	"MarauderV_MDL": {
+		"quirks": [
+			"MADV",			
+			"MISSILEBOAT"
+		],
+		"scale": "X=1.14 Y=1.14 Z=1.14",
+		"useSkinsFrom": "Mech.Assault.Marauderii.MAD-4A"
+	},
+	"MDV-DV": {
+		"quirks": [
+			"MADV-HERO",
+			"DIFFICULTTOMAINTAIN"
+		]
+	},
+	"MDV-TR": {
+		"quirks": [
+			"MADV-HERO",
+			"DIFFICULTTOMAINTAIN"
+		]
+	},
+	"MDV-5A": {
+		"quirks": []
+	},
+	"MDV-5B": {
+		"quirks": []
+	},
+	"MDV-5C": {
+		"quirks": [
+			"RUGGED1",
+			"EASYTOMAINTAIN"
+		]
+	},
+	"MDV-5D": {
+		"quirks": []
+	},
+	"MDV-5F": {
+		"quirks": []
+	},
+	"MDV-5G": {
+		"quirks": []
+	},
+	"MDV-5K": {
+		"quirks": []
+	},
+	"MDV-5L": {
+		"quirks": []
+	},
+	"MDV-5M": {
+		"quirks": []
+	},
+	"MDV-5N": {
+		"quirks": []
+	},
+	"MDV-5P": {
+		"quirks": [
+			"RUGGED1",
+			"EASYTOMAINTAIN"
+		]
+	},
+	"MDV-5R": {
+		"quirks": []
+	},
+	"MDV-5S": {
+		"quirks": []
+	},
+	"MarauderIV_MDL": {
+		"quirks": [
+			"REINFORCEDCOCKPIT",
+			"MADIV"
+		],
+		"scale": "X=0.6831 Y=0.6831 Z=0.6831",
+		"useSkinsFrom": "Mech.Heavy.Marauder.MAD-3R"
+	},
+	"MAD-5E": {
+		"quirks": [
+
+			"DIFFICULTTOMAINTAIN",
+			"I-BAL1",
+			"MISSILEBOAT"
+		]
+	},
+	"MAD-4Q": {
+		"quirks": [
+			"RUGGED1",
+			"I-BAL2"
+		]
+	},
+	"MAD-5F": {
+		"quirks": [
+			"NIMBLEJUMPER",
+			"DIFFICULTTOMAINTAIN",
+			"ICAP"
+		]
+	},
+	"MAD-4U": {
+		"quirks": [
+			"RUGGED1",
+			"MISSILEBOAT"
+		]
+	},
+	"MAD-4T": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"RUGGED2"
+		]
+	},
+	"MAD-CL": {
+		"quirks": [
+			"NIMBLEJUMPER",
+			"DIFFICULTTOMAINTAIN",
+			"MADCL"
+		]
+	},
+	"MarauderIII_MDL": {
+		"quirks": [
+			"EASYTOMAINTAIN",
+			"RUGGED2",
+			"MADIII"
+		],
+		"scale": "X=0.8563 Y=0.8563 Z=0.8563",
+		"useSkinsFrom": "Mech.Heavy.Marauder.MAD-3R"
+	},
+	"MAD-MS": {
+		"quirks": [
+			"MADIII-HERO"
+		]
+	},
+	"MAD-4J": {
+		"quirks": [
+			"AUTOLOADER2"
+		]
+	},
+	"MAD-4N": {
+		"quirks": [
+			"AUTOLOADER"
+		]
+	}
+}

@@ -1,0 +1,1076 @@
+{
+	"Annihilator_MDL": {"quirks":[
+		"ANNIHILATOR", ["EMQ"],
+		"BSC_SYSTEM", ["BTHBS"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		["STABILIZED_WEAPON"], ["BTA3062"],
+		"DISTRACTING", ["EMQ"],
+		"POWER_REVERSE", ["EMQ"],
+	[]]},
+	"ANH-MB": {"quirks":[["YAML"],
+		"ANH-MB",
+		"ANH-HERO",
+	[]]},
+
+	"Archer_MDL": {"quirks":[
+		"ARCHER", ["EMQ"],
+		"MISSILERY_SUITE", ["BTHBS"],
+		["ARC-LRM"], ["YAML"],
+		"BATTLEFISTS", ["BTBMM"], ["BTA3062"], ["SJagers"], ["YAML"],
+		"CMD_MECH", ["BTBMM"],
+		["STABLE"], ["BTBMM"],
+		"UBIQUITOUS", ["BTBMM"],
+	[]]},
+	"ARC-2RB": {"quirks":[
+		"SLDF",
+	[]]},
+	"ARC-2P": {"quirks":[
+		"MELEE",
+	[]]},
+	"ARC-AGC": {"quirks":[
+		"ARC-AGC",
+		"ARC-HERO",
+	[]]},
+	"ARC-T": {"quirks":[
+		"ARC-T",
+		"ARC-HERO",
+	[]]},
+
+	"Assassin_MDL": {"quirks":[
+		"ASSASSIN", ["EMQ"],
+		"INTERCEPT_SYSTEM", ["BTHBS"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"NON_STANDARD_PARTS", ["BTBMM"],
+		"CRAMPED_COCKPIT", ["BTBMM"],
+		["POOR_LIFE_SUPPORT"], ["BTBMM"], ["SJagers"],
+		["NIMBLEJUMPER"], ["BTA3062"],
+	[]]},
+	"ASN-25": {"quirks":[
+		"MELEE",
+	[]]},
+	"ASN-DD": {"quirks":[
+		"ASN-DD",
+		"ASN-HERO",
+	[]]},
+	"ASN-W": {"quirks":[["YAML"],
+		"ASN-W",
+		"ASN-HERO",
+	[]]},
+
+	"Atlas_MDL": {"quirks":[
+		"ATLAS", ["EMQ"],
+		"BATTLEFISTS", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"CMD_MECH", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"DISTRACTING", ["BTBMM"],
+		"IMPROVED_COMS", ["BTBMM"],
+		["COOLANT_COUPLER"], ["SJagers"],
+	[]]},
+	"AS7-P": {"quirks":[
+		"MELEE",
+	[]]},
+	"AS7-BH": {"quirks":[
+		"AS7-BH",
+		"AS7-HERO",
+	[]]},
+	"AS7-KR": {"quirks":[
+		"AS7-KR",
+		"AS7-HERO",
+	[]]},
+	"AS7-D-Y": {"quirks":[["YAML"],
+		"AS7-D-Y",
+		"SLDF",
+		"AS7-HERO",
+	[]]},
+	"AS7-D-H": {"quirks":[["YAML"],
+		"SLDF",
+	[]]},
+
+	"Awesome_MDL": {"quirks":[
+		"AWESOME", ["EMQ"],
+		"AWS-PPC", ["YAML"],
+		"BATTLEFIST_L", ["BTBMM"], ["BTA3062"], ["SJagers"], ["YAML"],
+		"RUGGED1", ["EMQ"],
+		"LOW_MANEUVER", ["EMQ"],
+	[]]},
+	"AWS-PB": {"quirks":[
+		"AWS-PB",
+		"AWS-HERO",
+	[]]},
+
+	"Banshee_MDL": {"quirks":[
+		"BANSHEE", ["EMQ"],
+		"BNC-MELEE", ["YAML"],
+		"RUGGED1", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"EASYTOMAINTAIN", ["SJagers"],
+		"DISTRACTING", ["SJagers"],
+	[]]},
+	"BNC-3E": {"quirks":[
+		"BAD_REP", ["BTBMM"], ["SJagers"],
+	[]]},
+	"BNC-3M": {"quirks":[
+		"BAD_REP", ["BTBMM"], ["SJagers"],
+	[]]},
+	"BNC-2P": {"quirks":[
+		"MELEE",
+	[]]},
+	"BNC-LM": {"quirks":[
+		"BNC-LM",
+		"BNC-HERO",
+	[]]},
+	"BNC-SR": {"quirks":[
+		"BNC-SR",
+		"BNC-HERO",
+	[]]},
+
+	"Battlemaster_MDL": {"quirks":[
+		"BATTLEMASTER", ["EMQ"],
+		"CMD_MECH", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"], ["YAML"],
+		["JETTISON_WEAPON_PPC"], ["BTBMM"], ["SJagers"],
+		"EASYTOMAINTAIN", ["YAML"],
+		"RUGGED1", ["YAML"],
+		"MACHINE_GUNNER", ["EMQ"],
+	[]]},
+	"BLR-1M": {"quirks":[
+		"MELEE",
+	[]]},
+	"BLR-1GHE": {"quirks":[
+		"BLR-1GHE",
+		"BLR-HERO",
+	[]]},
+
+	"Blackknight_MDL": {"quirks":[
+		"BLACKKNIGHT", ["EMQ"],
+		"CMD_MECH", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"], ["YAML"],
+		"UNBALANCED", ["SJagers"],
+		"DISTRACTING", ["SJagers"],
+	[]]},
+	"BL-6B-KNT": {"quirks":[
+		"SLDF",
+	[]]},
+	"BL-7-KNT-P": {"quirks":[
+		"MELEE",
+	[]]},
+	"BL-P-KNT": {"quirks":[
+		"BL-P-KNT",
+		"BL-HERO",
+	[]]},
+	"BL-P-KNT2": {"quirks":[
+		"MELEE",
+		"BL-P-KNT2",
+		"BL-HERO",
+	[]]},
+	"BL-G-KNT": {"quirks":[["YAML"],
+		"BL-G-KNT",
+		"BL-HERO",
+	[]]},
+
+	"Blackjack_MDL": {"quirks":[
+		"BLACKJACK", ["EMQ"],
+		"BAD_REP", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"IMPROVED_TARGETING", ["BTA3062"],
+		"HYPER_ACTUATOR", ["SJagers"],
+		"EXP_ACTUATOR", ["SJagers"],
+	[]]},
+	"BJ-A": {"quirks":[
+		"BJ-A",
+		"BJ-HERO",
+	[]]},
+
+	"Cataphract_MDL": {"quirks":[
+		"CATAPHRACT", ["EMQ"],
+		"PROTECTED_ACTUATOR", ["BTBMM"],
+		"IMPROVED_TARGETING", ["BTA3062"],
+		"SEARCHLIGHT", ["SJagers"],
+		"STANDARD_PARTS", ["EMQ"],
+	[]]},
+	"CTF-0X": {"quirks":[
+		"PROTOTYPE", ["EMQ"],
+	[]]},
+	"CTF-1X": {"quirks":[
+		"POOR_WORKMANSHIP", ["EMQ"],
+	[]]},
+	"CTF-2X": {"quirks":[
+		"PROTOTYPE", ["EMQ"],
+	[]]},
+	"CTF-2P": {"quirks":[
+		"MELEE",
+	[]]},
+	"CTF-IM": {"quirks":[
+		"CTF-IM",
+		"CTF-HERO",
+	[]]},
+
+	"Catapult_MDL": {"quirks":[
+		"CATAPULT", ["EMQ"],
+		"MISSILEBOAT", ["YAML"],
+		["NO_ARMS"], ["BTBMM"], ["SJagers"],
+		"WEAK_HEAD_1", ["BTBMM"],
+		"NIMBLEJUMPER", ["BTA3062"], ["YAML"],
+		["POOR_JUMP_JETS"], ["SJagers"],
+		"IMPROVED_EJECT", ["EMQ"],
+	[]]},
+	"CPLT-C1B": {"quirks":[
+		"SLDF",
+	[]]},
+	"CPLT-BB": {"quirks":[
+		"CPLT-BB",
+		"CPLT-HERO",
+	[]]},
+	"CPLT-J": {"quirks":[
+		"CPLT-J",
+		"CPLT-HERO",
+	[]]},
+
+	"Centurion_MDL": {"quirks":[
+		"CENTURION", ["EMQ"],
+		"CN9-SHIELD", ["YAML"],
+		"IMPROVED_TARGETING_SHORT", ["BTBMM"], ["BTA3062"],
+		"NON_STANDARD_PARTS", ["BTBMM"],
+		"WEAPON_JAM_AC10", ["SJagers"],
+	[]]},
+	"CN9-P": {"quirks":[
+		"MELEE",
+	[]]},
+	"CN9-YLW": {"quirks":[
+		"CN9-YLW",
+		"CN9-HERO",
+	[]]},
+	"CN9-YLW2": {"quirks":[
+		"MELEE",
+		"CN9-YLW2",
+		"CN9-HERO",
+	[]]},
+
+	"Champion_MDL": {"quirks":[
+		"CHAMPION", ["EMQ"],
+		"MIN_ARMS", ["BTBMM"],
+		"EASY_PILOT", ["BTA3062"],
+		"HIGH_MANEUVER", ["EMQ"],
+		"AERODYNAMIC", ["EMQ"],
+	[]]},
+	"CHP-1NB": {"quirks":[
+		"SLDF",
+	[]]},
+	"CHP-INV": {"quirks":[["YAML"],
+		"CHP-INV",
+		"CHP-HERO",
+	[]]},
+
+	"Charger_MDL": {"quirks":[
+		"CHARGER", ["EMQ"],
+		"BATTLEFIST_R", ["EMQ"],
+		"BARREL_FIST_L", ["BTBMM"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["BTA3062"], ["YAML"],
+		["BAD_REP"], ["BTBMM"], ["SJagers"],
+		"RUGGED1", ["EMQ"],
+	[]]},
+	"CGR-1A1": {"quirks":[
+		"BAD_REP", ["BTBMM"], ["SJagers"],
+		"ASSAULT_SCOUT", ["EMQ"],
+	[]]},
+	"CGR-1A5": {"quirks":[
+		"BAD_REP", ["BTBMM"], ["SJagers"],
+	[]]},
+	"CGR-3K": {"quirks":[
+		"ASSAULT_SCOUT", ["EMQ"],
+	[]]},
+	"CGR-1P5": {"quirks":[
+		"MELEE",
+	[]]},
+	"CGR-N7": {"quirks":[
+		"CGR-N7",
+		"CGR-HERO",
+	[]]},
+
+	"Cicada_MDL": {"quirks":[
+		"CICADA", ["EMQ"],
+		["ENERGYPROF"], ["YAML"],
+		["NO_ARMS"], ["BTBMM"], ["SJagers"],
+		"NO_TWIST", ["BTBMM"], ["SJagers"],
+		"EASY_PILOT", ["BTA3062"],
+		"COOLING_FLAWS", ["SJagers"],
+		"GOOD_REP", ["EMQ"],
+	[]]},
+	"CDA-3C": {"quirks":[
+		"EXPERIMENTAL_PPC", ["EMQ"],
+	[]]},
+	"CDA-3M": {"quirks":[
+		"EXPERIMENTAL_UAC", ["EMQ"],
+	[]]},
+	"CDA-X5": {"quirks":[
+		"CDA-X5",
+		"CDA-HERO",
+	[]]},
+
+	"Commando_MDL": {"quirks":[
+		"COMMANDO", ["EMQ"],
+		"NARROW_PROFILE", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"EXP_ACTUATOR", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"COMPACT_MECH", ["EMQ"],
+	[]]},
+	"COM-TDK": {"quirks":[
+		"COM-TDK",
+		"COM-HERO",
+	[]]},
+
+	"Corsair_MDL": {"quirks":[
+		"CORSAIR", ["EMQ"],
+		"EASYTOMAINTAIN", ["YAML"],
+		"RUGGED1", ["BTA3062"], ["YAML"],
+		"UNBALANCED", ["EMQ"],
+		"FRANKENMECH", ["EMQ"],
+	[]]},
+	"COR-PVT": {"quirks":[
+		"COR-PVT",
+		"COR-HERO",
+	[]]},
+	"COR-RA": {"quirks":[["YAML"],
+		"COR-RA",
+		"COR-HERO",
+	[]]},
+
+	"Crab_MDL": {"quirks":[
+		"CRAB", ["EMQ"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"IMPROVED_EJECT", ["EMQ"],
+		"IMPROVED_COMS", ["EMQ"],
+	[]]},
+	"CRB-27B": {"quirks":[
+		"SLDF",
+	[]]},
+	"CRB-27SL": {"quirks":[
+		"SLDF",
+	[]]},
+	"CRB-FL": {"quirks":[
+		"CRB-FL",
+		"CRB-HERO",
+	[]]},
+
+	"Cyclops_MDL": {"quirks":[
+		"CYCLOPS", ["EMQ"],
+		"BATTLECOMP", ["BTBMM"], ["MegaMek"], ["SJagers"], ["YAML"],
+		"COWL", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"], ["YAML"],
+		"DIFFICULT_EJECT", ["BTBMM"],
+		"WEAK_HEAD_2", ["BTBMM"],
+	[]]},
+	"CP-10-P": {"quirks":[
+		"MELEE",
+	[]]},
+	"CP-S": {"quirks":[
+		"CP-S",
+		"CP-HERO",
+	[]]},
+
+	"Dervish_MDL": {"quirks":[
+		"DERVISH", ["EMQ"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"HYPER_ACTUATOR_DV", ["BTBMM"],
+		"RUGGED1", ["EMQ"],
+	[]]},
+	"DV-FR": {"quirks":[
+		"DV-FR",
+		"DV-HERO",
+	[]]},
+
+	"Dragon_MDL": {"quirks":[
+		"DRAGON", ["EMQ"],
+		"LOW_PROFILE", ["BTBMM"], ["YAML"],
+		"STABLE", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"UBIQUITOUS", ["EMQ"],
+	[]]},
+	"DRG-1C": {"quirks":[
+		"IMP_LIFE_SUPPORT", ["BTA3062"],
+	[]]},
+	"DRG-1N": {"quirks":[
+		"IMP_LIFE_SUPPORT", ["BTA3062"],
+	[]]},
+	"DRG-5N": {"quirks":[
+		"IMP_LIFE_SUPPORT", ["BTA3062"],
+	[]]},
+	"DRG-1G": {"quirks":[
+		"EXT_TWIST", ["BTBMM"], ["SJagers"],
+		"CBTCPU", ["BTA3062"],
+	[]]},
+	"DRG-FANG": {"quirks":[
+		"DRG-FANG",
+		"DRG-HERO",
+	[]]},
+	"DRG-FLAME": {"quirks":[
+		"DRG-FLAME",
+		"DRG-HERO",
+	[]]},
+	"DRG-SDW": {"quirks":[
+		"DRG-SDW",
+		"DRG-HERO",
+	[]]},
+
+	"Enforcer_MDL": {"quirks":[
+		"ENFORCER", ["EMQ"],
+		"BARREL_FISTS", ["BTBMM"],
+		"FAST_RELOAD_AC", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"IMP_COOLING_AC", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"WEAPON_JAM_AC", ["BTBMM"], ["SJagers"],
+	[]]},
+	"ENF-4P": {"quirks":[
+		["ENF-AC20"], ["YAML"],
+	[]]},
+	"ENF-5P": {"quirks":[
+		["ENF-UAC5"], ["YAML"],
+		"HEAT_VENT", ["EMQ"],
+	[]]},
+	"ENF-GH": {"quirks":[
+		"ENF-GH",
+		"ENF-HERO",
+	[]]},
+
+	"Firestarter_MDL": {"quirks":[
+		"FIRESTARTER", ["YAML"],
+		"UBIQUITOUS", ["BTBMM"],
+		"EXPOSED_LINKAGE", ["BTBMM"],
+		"NIMBLEJUMPER", ["BTA3062"],
+	[]]},
+	"FS9-E": {"quirks":[
+		"FS9-E",
+		"FS9-HERO",
+	[]]},
+	"FS9-FS": {"quirks":[
+		"FS9-FS",
+		"FS9-HERO",
+	[]]},
+
+	"Flea_MDL": {"quirks":[
+		"FLEA", ["EMQ"],
+		"TARGETING_BAFFLES", ["BTHBS"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"IMP_LIFE_SUPPORT", ["BTBMM"],
+		["NO_ARMS"], ["BTBMM"],
+		"NARROW_PROFILE", ["BTA3062"],
+	[]]},
+	"FLE-R5K": {"quirks":[["YAML"],
+		"FLE-R5K",
+		"FLE-HERO",
+	[]]},
+
+	"Grasshopper_MDL": {"quirks":[
+		"GRASSHOPPER", ["EMQ"],
+		"RUGGED1", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"NON_STANDARD_PARTS", ["SJagers"],
+		"GOOD_REP", ["EMQ"],
+	[]]},
+	"GHR-5M": {"quirks":[
+		"MELEE",
+	[]]},
+	"GHR-MJ": {"quirks":[
+		"GHR-MJ",
+		"GHR-HERO",
+	[]]},
+
+	"Griffin_MDL": {"quirks":[
+		"GRIFFIN", ["EMQ"],
+		"BATTLEFISTS", ["BTBMM"], ["SJagers"], ["YAML"],
+		["JETTISON_WEAPON_PPC"], ["BTBMM"], ["SJagers"],
+		"RUGGED1", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"UBIQUITOUS", ["BTBMM"],
+		"IMP_COOLING_PPC", ["SJagers"],
+		"SEARCHLIGHT", ["SJagers"], ["EMQ"],
+		["POOR_SEALING"], ["SJagers"],
+	[]]},
+	"GRF-1P": {"quirks":[
+		"MELEE",
+	[]]},
+	"GRF-2N": {"quirks":[
+		"SLDF",
+	[]]},
+	"GRF-1E": {"quirks":[
+		"GRF-1E",
+		"GRF-HERO",
+	[]]},
+	"GRF-AR": {"quirks":[
+		"GRF-AR",
+		"GRF-HERO",
+	[]]},
+
+	"Hatamotochi_MDL": {"quirks":[
+		"HATAMOTOCHI", ["BTA3062"],
+		"BARREL_FIST_L", ["BTBMM"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"MODULAR_WEAPONS", ["BTBMM"],
+	[]]},
+	"HTM-26P": {"quirks":[
+		"MELEE",
+	[]]},
+	"HTM-ON": {"quirks":[
+		"MELEE",
+		"HTM-ON",
+		"HTM-HERO",
+	[]]},
+	"HTM-SG": {"quirks":[["YAML"],
+		"HTM-SG",
+		"HTM-HERO",
+	[]]},
+
+	"Hatchetman_MDL": {"quirks":[
+		"HATCHETMAN", ["EMQ"],
+		"ANTIAIR_TARGETING", ["BTBMM"],
+		["MELEE"], ["YAML"],
+		"FULL_HEAD_EJECT", ["SJagers"],
+		"FAST_RELOAD_LBX10", ["MegaMek"], ["SJagers"],
+	[]]},
+	"HCT-3F": {"quirks":[
+		"FAST_RELOAD_AC10", ["MegaMek"], ["SJagers"],
+	[]]},
+	"HCT-MA": {"quirks":[
+		"HCT-MA",
+		"HCT-HERO",
+	[]]},
+
+	"Highlander_MDL": {"quirks":[
+		"HIGHLANDER", ["EMQ"],
+		"CMD_MECH", ["BTBMM"],
+		"COWL", ["BTBMM"], ["BTA3062"], ["SJagers"], ["YAML"],
+		"REINFORCED_LEGS", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"],
+		"DIFFICULT_EJECT", ["BTBMM"], ["SJagers"],
+	[]]},
+	"HGN-732B": {"quirks":[
+		"SLDF",
+	[]]},
+	"HGN-733PP": {"quirks":[
+		"MELEE",
+	[]]},
+	"HGN-RS": {"quirks":[
+		"MELEE",
+		"HGN-RS",
+		"HGN-HERO",
+	[]]},
+	"HGN-HM": {"quirks":[
+		"HGN-HM",
+		"HGN-HERO",
+	[]]},
+	"HGN-LV": {"quirks":[["YAML"],
+		"HGN-LV",
+		"HGN-HERO",
+	[]]},
+	"HGN-SLDF": {"quirks":[["YAML"],
+		"SLDF",
+		"HGN-HERO",
+	[]]},
+
+	"Hunchback_MDL": {"quirks":[
+		"HUNCHBACK", ["EMQ"],
+		"BATTLEFISTS", ["BTBMM"], ["BTA3062"], ["SJagers"], ["YAML"],
+		"POWER_REVERSE", ["EMQ"],
+		"LOW_MANEUVER", ["EMQ"],
+		"GOOD_REP", ["EMQ"],
+	[]]},
+	"HBK-4HP": {"quirks":[
+		"MELEE",
+	[]]},
+	"HBK-GI": {"quirks":[
+		"HBK-GI",
+		"HBK-HERO",
+	[]]},
+
+	"Jagermech_MDL": {"quirks":[
+		"JAGERMECH", ["EMQ"],
+		"ANTIAIR_TARGETING", ["BTBMM"], ["BTA3062"], ["SJagers"],
+		"NO_TWIST", ["BTBMM"],
+		["HYPER_ACTUATOR"], ["SJagers"],
+		"OVERHEAD_ARMS", ["EMQ"],
+	[]]},
+	"JM6-FB": {"quirks":[
+		"JM6-FB",
+		"JM6-HERO",
+	[]]},
+
+	"Javelin_MDL": {"quirks":[
+		"JAVELIN", ["EMQ"],
+		"UNBALANCED", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"NIMBLEJUMPER", ["BTA3062"],
+		"RUGGED1", ["EMQ"],
+		"HIGH_MANEUVER", ["EMQ"],
+	[]]},
+	"JVN-HT": {"quirks":[
+		"JVN-HT",
+		"JVN-HERO",
+	[]]},
+	"JVN-WU": {"quirks":[["YAML"],
+		"JVN-WU",
+		"JVN-HERO",
+	[]]},
+
+	"Jenner_MDL": {"quirks":[
+		"JENNER", ["EMQ"],
+		["NO_ARMS"], ["BTBMM"], ["SJagers"],
+		"NO_TWIST", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"IMP_COOLING", ["BTA3062"],
+		"UNBALANCED", ["SJagers"],
+		"UBIQUITOUS", ["EMQ"],
+	[]]},
+	"JR7-O": {"quirks":[
+		"JR7-O",
+		"JR7-HERO",
+	[]]},
+
+	"Kingcrab_MDL": {"quirks":[
+		"KINGCRAB", ["EMQ"],
+		"CMD_MECH", ["BTBMM"], ["MegaMek"], ["SJagers"], ["YAML"],
+		"NO_TWIST", ["BTBMM"],
+		"IMPROVED_TARGETING", ["BTA3062"],
+		"REINFORCEDCOCKPIT", ["YAML"],
+	[]]},
+	"KGC-000B": {"quirks":[
+		"SLDF",
+	[]]},
+	"KGC-CAR": {"quirks":[
+		"KGC-CAR",
+		"KGC-HERO",
+	[]]},
+	"KGC-KJ": {"quirks":[
+		"KGC-KJ",
+		"KGC-HERO",
+	[]]},
+	"KGC-J": {"quirks":[["YAML"],
+		"KGC-J",
+		"KGC-HERO",
+	[]]},
+
+	"Kintaro_MDL": {"quirks":[
+		"KINTARO", ["EMQ"],
+		"RUGGED1", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"MISSILEBOAT", ["EMQ"],
+		"WEAPON_JAM_SRM", ["EMQ"],
+	[]]},
+	"KTO-19B": {"quirks":[
+		"SLDF",
+	[]]},
+	"KTO-18P": {"quirks":[
+		"MELEE",
+	[]]},
+	"KTO-GB": {"quirks":[
+		"KTO-GB",
+		"KTO-HERO",
+	[]]},
+
+	"Locust_MDL": {"quirks":[
+		"LOCUST", ["YAML"],
+		"NARROW_PROFILE", ["BTBMM"], ["YAML"],
+		"UBIQUITOUS", ["BTBMM"],
+		["NO_ARMS"], ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"WEAK_LEGS", ["BTBMM"],
+	[]]},
+	"LCT-PB": {"quirks":[
+		"LCT-PB",
+		"LCT-HERO",
+	[]]},
+	"LCT-1VB": {"quirks":[["YAML"],
+		"SLDF",
+	[]]},
+
+	"Marauder_MDL": {"quirks":[
+		"MARAUDER", ["EMQ"],
+		["LANCE_COMMAND_MOD"], ["BTHBS"],
+		"CMD_MECH", ["BTBMM"], ["MegaMek"], ["SJagers"], ["YAML"],
+		["DIR_TORSO_MOUNT"], ["BTBMM"],
+		"HYPER_ACTUATOR_MAD", ["BTBMM"],
+		"LOW_PROFILE", ["BTBMM"], ["YAML"],
+		["EXPOSED_LINKAGE_RT"], ["BTBMM"],
+		["LOW_ARMS"], ["SJagers"],
+		"WEAK_ROTATION_RINGS", ["EMQ"],
+	[]]},
+	"MAD-2R": {"quirks":[
+		"EXPOSED_LINKAGE_RT", ["BTBMM"],
+		"SLDF", ["YAML"],
+	[]]},
+	"MAD-3R": {"quirks":[
+		"EXPOSED_LINKAGE_RT", ["BTBMM"],
+	[]]},
+	"MAD-3M": {"quirks":[
+		"EXPOSED_LINKAGE_RT", ["BTBMM"],
+	[]]},
+	"MAD-3L": {"quirks":[
+		"EXPOSED_LINKAGE_RT", ["BTBMM"],
+		"POOR_TARGETING_PPC", ["EMQ"],
+	[]]},
+	"MAD-BH2": {"quirks":[
+		"MAD-BH2",
+		"MAD-HERO",
+	[]]},
+
+	"Marauderii_MDL": {"quirks":[
+		"MARAUDERII", ["EMQ"],
+		"CMD_MECH", ["BTBMM"], ["MegaMek"], ["YAML"],
+		["DIR_TORSO_MOUNT"], ["BTBMM"],
+		"HYPER_ACTUATOR_MAD", ["BTBMM"],
+		"LOW_PROFILE", ["BTBMM"], ["YAML"],
+		"CBTCPU", ["BTA3062"],
+	[]]},
+	"MAD-AL": {"quirks":[["YAML"],
+		"MAD-AL",
+		"MAD2-HERO",
+	[]]},
+
+	"Mauler_MDL": {"quirks":[
+		"MAULER", ["EMQ"],
+		"NO_TWIST", ["BTBMM"],
+		"STABILIZED_WEAPON", ["BTA3062"],
+		"IMPROVED_TARGETING_LONG", ["EMQ"],
+	[]]},
+	"MAL-2P": {"quirks":[
+		["PROTOTYPE"], ["EMQ"],
+	[]]},
+	"MAL-MX90": {"quirks":[
+		"PROTOTYPE", ["EMQ"],
+		"BAD_REP", ["EMQ"],
+	[]]},
+	"MAL-KO": {"quirks":[
+		"MAL-KO",
+		"MAL-HERO",
+	[]]},
+
+	"Nightstar_MDL": {"quirks":[
+		"NIGHTSTAR", ["EMQ"],
+		"CMD_MECH", ["BTBMM"], ["BTA3062"], ["YAML"],
+		["GOOD_REP"], ["BTBMM"],
+		"VARRANGE_TARGETING", ["BTBMM"],
+		"NSR-DIFFICULTTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"REINFORCEDCOCKPIT", ["YAML"],
+	[]]},
+	"NSR-9J": {"quirks":[
+		"SLDF",
+	[]]},
+	"NSR-WP": {"quirks":[["YAML"],
+		"NSR-WP",
+		"NSR-HERO",
+	[]]},
+	"NSR-WD": {"quirks":[["YAML"],
+		"NSR-WD",
+		"NSR-HERO",
+	[]]},
+
+	"Orion_MDL": {"quirks":[
+		"ORION", ["EMQ"],
+		"ANTIAIR_TARGETING", ["BTBMM"], ["SJagers"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["SJagers"], ["YAML"],
+		"RUGGED1", ["BTBMM"], ["YAML"],
+		"CBTCPU", ["BTA3062"],
+		["COOLANT_COUPLER"], ["SJagers"],
+	[]]},
+	"ON1-P": {"quirks":[
+		"ON1-P",
+		"ON1-HERO",
+	[]]},
+	"ON1-YAJ": {"quirks":[
+		"ON1-YAJ",
+		"ON1-HERO",
+	[]]},
+
+	"Panther_MDL": {"quirks":[
+		"PANTHER", ["EMQ"],
+		"IMPROVED_TARGETING_SHORT", ["BTBMM"], ["BTA3062"],
+		"NIMBLEJUMPER", ["BTBMM"], ["YAML"],
+		"RUGGED1", ["EMQ"],
+		"HIGH_MANEUVER", ["EMQ"],
+	[]]},
+	"PNT-KK": {"quirks":[
+		"PNT-KK",
+		"PNT-HERO",
+	[]]},
+
+	"Phoenixhawk_MDL": {"quirks":[
+		"PHOENIXHAWK", ["EMQ"],
+		"VECTORED_THRUST", ["BTHBS"],
+		"IMPROVED_COMS", ["BTBMM"], ["BTA3062"], ["SJagers"],
+		["JETTISON_WEAPON_LL"], ["BTBMM"], ["SJagers"],
+		"UBIQUITOUS", ["BTBMM"],
+		"IMPROVED_TARGETING_LONG", ["SJagers"],
+	[]]},
+	"PXH-1P": {"quirks":[
+		"MELEE",
+	[]]},
+	"PXH-1B": {"quirks":[
+		"SLDF",
+	[]]},
+	"PXH-KK": {"quirks":[
+		"PXH-KK",
+		"PXH-HERO",
+	[]]},
+	"PXH-KB": {"quirks":[
+		"PXH-KB",
+		"PXH-HERO",
+	[]]},
+	"PXH-R": {"quirks":[["YAML"],
+		"PXH-R",
+		"PXH-HERO",
+	[]]},
+	"PXH-7S": {"quirks":[["YAML"],
+		"FULL_HEAD_EJECT", ["EMQ"],
+	[]]},
+
+	"Quickdraw_MDL": {"quirks":[
+		"QUICKDRAW", ["EMQ"],
+		"HYPER_ACTUATOR_QKD", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"EXP_ACTUATOR", ["BTBMM"], ["SJagers"],
+		["ARTICULATE_ANKLE"], ["SJagers"],
+		"IMPROVED_COMS", ["BTA3062"],
+		"STABLE", ["EMQ"],
+	[]]},
+	"_QKD-4G": {"quirks":[
+		"REAR_WEAPON",
+	[]]},
+	"QKD-5P": {"quirks":[
+		"MELEE",
+	[]]},
+	"QKD-IV4": {"quirks":[
+		"QKD-IV4",
+		"QKD-HERO",
+	[]]},
+	"QKD-SC": {"quirks":[
+		"MELEE",
+		"QKD-SC",
+		"QKD-HERO",
+	[]]},
+
+	"Raven_MDL": {"quirks":[
+		"RAVEN", ["EMQ"],
+		"RVN-SENSOR", ["YAML"],
+		["NO_ARMS"], ["BTBMM"],
+		"NARROW_PROFILE", ["BTA3062"],
+		"NON_STANDARD_PARTS", ["EMQ"],
+		"HIGH_MAINTENANCE", ["EMQ"],
+	[]]},
+	"RVN-1X": {"quirks":[
+		"PROTOTYPE", ["EMQ"],
+	[]]},
+	"RVN-H": {"quirks":[
+		"RVN-H",
+		"RVN-HERO",
+	[]]},
+	"RVN-M": {"quirks":[["YAML"],
+		"RVN-M",
+		"RVN-HERO",
+	[]]},
+
+	"Rifleman_MDL": {"quirks":[
+		"RIFLEMAN", ["EMQ"],
+		"RANGEFINDER_SUITE", ["BTHBS"],
+		"ANTIAIR_TARGETING", ["BTBMM"], ["BTA3062"], ["SJagers"],
+		"IMPROVED_COMS", ["BTBMM"], ["SJagers"],
+		"SEARCHLIGHT", ["BTBMM"], ["MegaMek"], ["SJagers"], ["EMQ"],
+		"UBIQUITOUS", ["BTBMM"],
+		["HYPER_ACTUATOR"], ["SJagers"],
+	[]]},
+	"RFL-DB": {"quirks":[
+		"RFL-DB",
+		"RFL-HERO",
+	[]]},
+	"RFL-DNA": {"quirks":[
+		"RFL-DNA",
+		"RFL-HERO",
+	[]]},
+	"RFL-LK": {"quirks":[
+		"RFL-LK",
+		"RFL-HERO",
+	[]]},
+
+	"Shadowhawk_MDL": {"quirks":[
+		"SHADOWHAWK", ["EMQ"],
+		"BATTLEFISTS", ["BTBMM"], ["SJagers"], ["YAML"],
+		"IMP_LIFE_SUPPORT", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"],
+		"UBIQUITOUS", ["BTBMM"],
+		"RUGGED1", ["YAML"],
+		"SEARCHLIGHT", ["SJagers"], ["EMQ"],
+	[]]},
+	"SHD-1P": {"quirks":[
+		"MELEE",
+	[]]},
+	"SHD-GD": {"quirks":[
+		"SHD-GD",
+		"SHD-HERO",
+	[]]},
+
+	"Spider_MDL": {"quirks":[
+		"SPIDER", ["EMQ"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"NIMBLEJUMPER", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"NO_EJECT", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"LOW_MAINTENANCE", ["EMQ"],
+	[]]},
+	"SDR-A": {"quirks":[
+		"SDR-A",
+		"SDR-HERO",
+	[]]},
+
+	"Stalker_MDL": {"quirks":[
+		"STALKER", ["EMQ"],
+		"MISSILEBOAT", ["YAML"],
+		"CBTCPU", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"], ["YAML"],
+		"UBIQUITOUS", ["BTBMM"],
+		["NO_ARMS"], ["BTBMM"], ["MegaMek"], ["SJagers"],
+		"NO_TWIST", ["SJagers"],
+	[]]},
+	"STK-3FB": {"quirks":[
+		"SLDF",
+	[]]},
+	"STK-M": {"quirks":[
+		"STK-M",
+		"STK-HERO",
+	[]]},
+
+	"Thunderbolt_MDL": {"quirks":[
+		"THUNDERBOLT", ["EMQ"],
+		"MULTITRAC", ["BTBMM"], ["BTA3062"],
+		"RUGGED2", ["BTBMM"], ["YAML"],
+		"UBIQUITOUS", ["BTBMM"],
+		"ROOMY_COCKPIT", ["EMQ"],
+	[]]},
+	"TDR-5S-T": {"quirks":[
+		"TDR-5S-T",
+		"TDR-HERO",
+	[]]},
+
+	"Trebuchet_MDL": {"quirks":[
+		"TREBUCHET", ["EMQ"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"FAST_RELOAD_TORSO", ["BTBMM"],
+		"EASY_PILOT", ["BTA3062"],
+		"POWER_REVERSE", ["EMQ"],
+	[]]},
+	"TBT-5P": {"quirks":[
+		"MELEE",
+	[]]},
+	"TBT-LG": {"quirks":[
+		"TBT-LG",
+		"TBT-HERO",
+	[]]},
+
+	"Urbanmech_MDL": {"quirks":[
+		"URBANMECH", ["EMQ"],
+		"UM-ASSAULT", ["YAML"],
+		"FULL_TWIST", ["BTBMM"], ["BTA3062"],
+		"LOW_PROFILE", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"], ["YAML"],
+		"MIN_ARMS", ["BTBMM"], ["SJagers"],
+	[]]},
+	"UM-K9": {"quirks":[
+		"UM-K9", ["YAML"],
+		"UM-HERO", ["EMQ"],
+	[]]},
+	"UM-SC": {"quirks":[
+		"UM-SC", ["YAML"],
+		"UM-HERO", ["EMQ"],
+	[]]},
+
+	"Victor_MDL": {"quirks":[
+		"VICTOR", ["EMQ"],
+		"RUGGED1", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"WEAPON_JAM_AC20", ["SJagers"],
+		"NIMBLEJUMPER", ["EMQ"],
+		"ASSAULT_SUPPORT", ["EMQ"],
+	[]]},
+	"VTR-9P": {"quirks":[
+		"MELEE",
+	[]]},
+	"VTR-BSK": {"quirks":[
+		"VTR-BSK",
+		"VTR-HERO",
+	[]]},
+	"VTR-DS": {"quirks":[
+		"VTR-DS",
+		"VTR-HERO",
+	[]]},
+
+	"Vindicator_MDL": {"quirks":[
+		"VINDICATOR", ["EMQ"],
+		"RUGGED1", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"DIFFICULT_EJECT", ["BTBMM"], ["SJagers"],
+		"NO_TWIST", ["BTBMM"],
+		["DIFFICULTTOMAINTAIN"], ["SJagers"],
+		"IMP_COOLING_PPC", ["SJagers"],
+		["CRAMPED_COCKPIT"], ["EMQ"],
+	[]]},
+	"VND-1P": {"quirks":[
+		"MELEE",
+	[]]},
+	"VND-1SIB": {"quirks":[
+		"VND-1SIB",
+		"VND-HERO",
+	[]]},
+
+	"Vulcan_MDL": {"quirks":[
+		"VULCAN", ["EMQ"],
+		"CQC_SUITE", ["BTHBS"],
+		"NARROW_PROFILE", ["BTBMM"], ["BTA3062"], ["MegaMek"], ["SJagers"], ["YAML"],
+		"SEARCHLIGHT", ["SJagers"],
+		"OVERHEAD_ARMS", ["EMQ"],
+	[]]},
+	"VL-BL": {"quirks":[
+		"VL-BL",
+		"VL-HERO",
+	[]]},
+
+	"Warhammer_MDL": {"quirks":[
+		"WARHAMMER", ["EMQ"],
+		"OPTIMISED_CAPACITORS", ["BTHBS"],
+		"RUGGED2", ["BTBMM"], ["BTA3062"], ["YAML"],
+		"SEARCHLIGHT", ["BTBMM"], ["MegaMek"], ["SJagers"], ["EMQ"],
+		"STABLE", ["BTBMM"],
+		"UBIQUITOUS", ["BTBMM"],
+	[]]},
+	"WHM-6RB": {"quirks":[
+		"SLDF",
+	[]]},
+	"WHM-BW": {"quirks":[
+		"WHM-BW",
+		"WHM-HERO",
+	[]]},
+
+	"Wolfhound_MDL": {"quirks":[
+		"WOLFHOUND", ["EMQ"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["SJagers"], ["YAML"],
+		"GOOD_REP", ["BTBMM"],
+		"IMP_LIFE_SUPPORT", ["BTA3062"],
+		"FULL_HEAD_EJECT", ["SJagers"],
+		["COOLING_FLAWS"], ["SJagers"],
+	[]]},
+	"WLF-GR": {"quirks":[
+		"WLF-GR",
+		"WLF-HERO",
+	[]]},
+
+	"Wolverine_MDL": {"quirks":[
+		"WOLVERINE", ["EMQ"],
+		"CMD_MECH", ["BTBMM"], ["MegaMek"], ["SJagers"], ["YAML"],
+		["EXT_TWIST"], ["BTBMM"],
+		["IMPROVED_COMS"], ["BTBMM"], ["BTA3062"], ["SJagers"],
+		["JETTISON_WEAPON_AC5"], ["BTBMM"], ["SJagers"],
+		"PROTECTED_ACTUATOR", ["BTBMM"],
+		"UBIQUITOUS", ["BTBMM"],
+		"CRAMPED_COCKPIT", ["BTBMM"], ["MegaMek"], ["SJagers"],
+		["POOR_JUMP_JETS"], ["SJagers"],
+	[]]},
+	"WVR-6P": {"quirks":[
+		"MELEE",
+	[]]},
+	"WVR-7H": {"quirks":[
+		"WVR-7H",
+		"WVR-HERO",
+		"SLDF",
+	[]]},
+	"WVR-Q": {"quirks":[
+		"WVR-Q",
+		"WVR-HERO",
+	[]]},
+
+	"Zeus_MDL": {"quirks":[
+		"ZEUS", ["EMQ"],
+		"BARREL_FIST_R", ["BTBMM"],
+		"EASYTOMAINTAIN", ["BTBMM"], ["YAML"],
+		"EASY_PILOT", ["BTA3062"],
+		["BATTLEFIST_R"], ["SJagers"],
+		"SEARCHLIGHT", ["SJagers"], ["EMQ"],
+		["WEAPON_JAM_MISSILE"], ["SJagers"],
+	[]]},
+	"ZEU-SK": {"quirks":[
+		"ZEU-SK",
+		"ZEU-HERO",
+	[]]},
+"":0}

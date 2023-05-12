@@ -1,0 +1,348 @@
+{
+	"MADV": {
+		"name": "Marauder V",
+		"description": "The Maruder-V has denser armor.",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"ArmorBonus": {
+				"Head": 24,
+				"CenterTorso": 16,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 8,
+				"LeftArm": 8,
+				"RightLeg": 8,
+				"LeftLeg": 8
+			}
+		}
+	},
+	"MADV-HERO": {
+		"name": "Marauder V Hero Armor",
+		"description": "The Marauder V Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 16,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 8,
+				"LeftArm": 8,
+				"RightLeg": 8,
+				"LeftLeg": 8
+			}
+		}
+	},
+	"MADIV": {
+		"name": "Marauder IV",
+		"description": "The Maruder-IV has denser armor, and better weapon heat dissipation.",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"ArmorBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 4,
+				"LeftTorso": 4,
+				"RightArm": 4,
+				"LeftArm": 4,
+				"RightLeg": 4,
+				"LeftLeg": 4
+			},
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"MADCL": {
+		"name": "Crimson Light",
+		"description": "The Crimson Light has increased Armor, and with improved Ultra/Rotary Autocannon Performance.",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"ArmorBonus": {
+				"CenterTorso": 8,
+				"RightTorso": 4,
+				"LeftTorso": 4,
+				"RightArm": 4,
+				"LeftArm": 4,
+				"RightLeg": 4,
+				"LeftLeg": 4
+			},
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Rotary-Ultra Autocannon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Rotary",
+							"Weapon.Ballistic.AutoCannon.Ultra"
+						],
+						"cooldownMulti": 0.80,
+						"heatMulti": 0.80
+					}
+				]
+			}
+		}
+	},
+	"I-BAL1": {
+		"name": "Improved Ballistics",
+		"description": "Ballistic Weapons have higher damage, faster cooldown, and generates less heat.",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+							"Weapon.Ballistic.AutoCannon.Ultra.AC2.GatlingMG"
+						],
+						"damageMulti": 2,
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2
+					},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"DamageMulti": 1.1,
+						"cooldownMulti": 0.90,
+						"heatMulti": 0.90,
+						"optimalRangeMulti": 1.10,
+						"maxRangeMulti": 1.10,
+						"speedMulti": 1.10,
+						"spreadRadiusMulti": 0.90
+					}
+				]
+			}
+		}
+	},
+	"I-BAL2": {
+		"name": "Improved Ballistics (2)",
+		"description": "Ballistic Weapons have higher damage, faster cooldown, and generates less heat.",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Machinegun",
+						"tags": [
+							"Weapon.Ballistic.MG",
+							"Weapon.Ballistic.AutoCannon.Ultra.AC2.GatlingMG"
+						],
+						"damageMulti": 4,
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2
+					},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"DamageMulti": 1.2,
+						"cooldownMulti": 0.80,
+						"heatMulti": 0.80,
+						"optimalRangeMulti": 1.20,
+						"maxRangeMulti": 1.20,
+						"speedMulti": 1.20,
+						"spreadRadiusMulti": 0.80
+					}
+				]
+			}
+		}
+	},
+	"ICAP": {
+		"name": "Improved Capacitors",
+		"description": "Particle Weapons are able to charge faster with lesser heat.",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "PPC Family",
+						"tags": [
+							"Weapon.Energy.ParticleCannon.HPPC"
+						],
+						"heatMulti": 0.90
+					},
+					{
+						"weaponGroupName": "HPPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon.HPPC"
+						],
+						"DamageMulti": 1.20,
+						"optimalRangeMulti": 1.20,
+						"maxRangeMulti": 1.20
+					},
+					{
+						"weaponGroupName": "SNPPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon.SNPPC"
+						],
+						"heatMulti": 0.90,
+						"optimalRangeMulti": 1.10,
+						"maxRangeMulti": 1.10
+					},
+					{
+						"weaponGroupName": "LPPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon.LPPC"
+						],
+						"cooldownMulti": 0.90,
+						"heatMulti": 0.90
+					}
+				]
+			}
+		}
+	},
+	"MADIII-HERO": {
+		"name": "Marie Celeste",
+		"description": "Unique set of quirks for the Marauder-III Marie Celeste Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 9,
+				"RightTorso": 6,
+				"LeftTorso": 6,
+				"RightArm": 4,
+				"LeftArm": 4,
+				"RightLeg": 6,
+				"LeftLeg": 6
+			},
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ultra AC",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Ultra"
+						],
+						"cooldownMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"cooldownMulti": 0.9,
+						"speedMulti": 1.3
+					},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile"
+						],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"MADIII": {
+		"name": "Marauder III",
+		"description": "The Maruder-III has denser skeleton, extra head armor, and better weapon heat dissipation.",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"Head": 9
+			},
+			"structureBonus": {
+				"CenterTorso": 9,
+				"RightTorso": 6,
+				"LeftTorso": 6,
+				"RightArm": 4,
+				"LeftArm": 4,
+				"RightLeg": 6,
+				"LeftLeg": 6
+			},
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"AUTOLOADER": {
+		"name": "Autoloader",
+		"description": "Ballistic Weapons are able to charge faster.",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"cooldownMulti": 0.85
+					}
+				]
+			}
+		}
+	},
+	"AUTOLOADER2": {
+		"name": "Autoloader(2)",
+		"description": "Ballistic Weapons are able to charge faster.",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"cooldownMulti": 0.75
+					}
+				]
+			}
+		}
+	}
+}
