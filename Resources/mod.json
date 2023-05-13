@@ -1,0 +1,13 @@
+{
+   "displayName" : "Yet Another Quirk Lad",
+   "version" : "1.0",
+   "buildNumber" : 1,
+   "description" : "Quirks for Days.",
+   "author" : "TheNickster and BloodyDruid",
+   "authorURL" : "",
+   "defaultLoadOrder" : 1000,
+   "gameVersion" : "1.3.338",
+   "manifest" : [
+    
+   ]
+}
