@@ -1,9 +1,12 @@
 import os
-import sys
+import chardet
+import codecs
 import json
 import argparse
 
-DEFAULT_MOD_FOLDER = "mods"
+MOD_NAME = "YetAnotherModLad"
+
+DEFAULT_MOD_FOLDER = "Mods"
 DEFAULT_OUTPUT_FOLDER = "output"
 
 
@@ -12,8 +15,8 @@ parser = argparse.ArgumentParser(description="Merge JSON files.")
 
 # Add optional arguments for the source and output directories
 # If the user does not provide these arguments, default values are used
-parser.add_argument('-s', '--source', type=str, default=DEFAULT_MOD_FOLDER,
-                    help="The mods' source directory containing the JSON files to merge.")
+parser.add_argument('-s', '--source', type=str, nargs='*', default=[DEFAULT_MOD_FOLDER],
+                    help="The list of paths to mod source folder containing the JSON files to merge.")
 parser.add_argument('-o', '--output', type=str, default=DEFAULT_OUTPUT_FOLDER,
                     help="The directory where the merged JSON file will be saved.")
 
@@ -21,30 +24,56 @@ parser.add_argument('-o', '--output', type=str, default=DEFAULT_OUTPUT_FOLDER,
 args = parser.parse_args()
 
 # Now you can access the source and output directories like so:
-mod_folder = args.source
+mod_folders = args.source
 output_directory = args.output
+output_path = os.path.join(output_directory, MOD_NAME, "Resources")
 
-# Check if the user specified a file path to the mod folders
-if len(sys.argv) > 1:
-    mod_folder = sys.argv[1]
-else:
-    mod_folder = DEFAULT_MOD_FOLDER
-
-print(f"Using mod folder: {mod_folder}")
+print(f"Using mod folder: {mod_folders}")
 print(f"Using output folder: {output_directory}")
 
-# scan the subfolders of the mod folder for the mechs.json and quirk.json files
+
+def load_json_file(file_path):
+    # Detect the encoding
+    rawdata = open(file_path, 'rb').read()
+    result = chardet.detect(rawdata)
+    original_encoding = result['encoding']
+
+    # Open the file with detected encoding
+    with codecs.open(file_path, 'r', encoding=original_encoding) as f:
+        print(f"Loading {file_path} with encoding {original_encoding}")
+        contents = f.read()
+
+    # Encode the contents as UTF-8 and decode them as UTF-8
+    contents = contents.encode('utf-8').decode('utf-8')
+
+    # Now you can load the contents with json.loads (not json.load)
+    data = json.loads(contents)
+    return data
+
+
+# scan the sub-folders of the mod folder for the mechs.json and quirk.json files
 mech_files = []
 quirk_files = []
 
-for root, dirs, files in os.walk(mod_folder):
-    for file in files:
-        if file.endswith("mechs.json"):
-            mech_files.append(os.path.join(root, file))
-        elif file.endswith("quirks.json"):
-            quirk_files.append(os.path.join(root, file))
+for mod_folder in mod_folders:
+    for root, dirs, files in os.walk(mod_folder):
+        # Exclude the directory
+        if MOD_NAME in dirs or os.path.basename(root) == MOD_NAME:
+            dirs.remove(MOD_NAME)
+
+        # Check if 'Resources' is a sub-folder of the current folder
+        if 'Resources' in dirs:
+            resources_dir = os.path.join(root, 'Resources')
+
+            # get all the files in the Resources sub-folder
+            for file in os.listdir(resources_dir):
+                if file.endswith("mechs.json"):
+                    mech_files.append(os.path.join(root, 'Resources', file))
+                elif file.endswith("quirks.json"):
+                    quirk_files.append(os.path.join(root, 'Resources', file))
 
 print(f"Found {len(mech_files)} mech files.")
+print(f"Found {len(quirk_files)} quirk files.")
 
 # Check if there are at least two mechs.json files
 if len(mech_files) < 2:
@@ -88,13 +117,15 @@ def combine_mechs(mechs1, mechs2):
             if 'quirks' in combined_mechs[key] and isinstance(combined_mechs[key]['quirks'], list):
                 combined_mechs[key]['quirks'] = flatten(combined_mechs[key]['quirks'])
         else:
+            combined_mechs[key] = mechs1[key]
             if isinstance(mechs1[key], dict) and 'quirks' in mechs1[key] and isinstance(mechs1[key]['quirks'], list):
-                combined_mechs[key] = flatten(mechs1[key]['quirks'])
+                combined_mechs[key]['quirks'] = flatten(mechs1[key]['quirks'])
 
     for key in mechs2.keys():
         if key not in combined_mechs.keys():
+            combined_mechs[key] = mechs2[key]
             if isinstance(mechs2[key], dict) and 'quirks' in mechs2[key] and isinstance(mechs2[key]['quirks'], list):
-                combined_mechs[key] = flatten(mechs2[key]['quirks'])
+                combined_mechs[key]['quirks'] = flatten(mechs2[key]['quirks'])
 
     return combined_mechs
 
@@ -108,9 +139,8 @@ mech_files.pop(0)
 
 # read and merge the remaining mech files into the dictionary
 for mech_file in mech_files:
-    with open(mech_file) as f:
-        mech_data = json.load(f)
-        mechs = combine_mechs(mechs, mech_data)
+    mech_data = load_json_file(mech_file)
+    mechs = combine_mechs(mechs, mech_data)
 
 print(f"Loaded {len(mechs)} mechs.")
 
@@ -119,7 +149,8 @@ if not os.path.exists(DEFAULT_OUTPUT_FOLDER):
     os.mkdir(DEFAULT_OUTPUT_FOLDER)
 
 # write the combined mechs to a new file
-with open(f"{DEFAULT_OUTPUT_FOLDER}/mechs.json", "w") as f:
+os.makedirs(output_path, exist_ok=True)
+with open(f"{output_path}\\mechs.json", "w") as f:
     json.dump(mechs, f, indent=2)
 
 
@@ -132,14 +163,13 @@ quirk_files.pop(0)
 
 # read and merge the remaining quirk files into the dictionary
 for quirk_file in quirk_files:
-    with open(quirk_file) as f:
-        quirk_data = json.load(f)
-        quirks = join_dicts(quirks, quirk_data)
+    quirk_data = load_json_file(quirk_file)
+    quirks = join_dicts(quirks, quirk_data)
 
 print(f"Loaded {len(quirks)} quirks.")
 
-# write the combined quirks to a new file
-with open(f"{DEFAULT_OUTPUT_FOLDER}/quirks.json", "w") as f:
+os.makedirs(output_path, exist_ok=True)
+with open(f"{output_path}\\quirks.json", "w") as f:
     json.dump(quirks, f, indent=2)
 
 print("Done.")
